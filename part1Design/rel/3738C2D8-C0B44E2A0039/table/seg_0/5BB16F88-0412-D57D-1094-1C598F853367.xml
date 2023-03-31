@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BB16F88-0412-D57D-1094-1C598F853367" name="JLS_STORETYPE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>780EFE66-AA66-F854-2C18-E951831AD95E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STORETYPE_ID" id="E3E9683F-FB6F-F630-B6EE-A795C5DECAD2">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Store type ID]]></commentInRDBMS>
+<generatorID>85F80A56-6FBC-02C4-6794-20576F373950</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORETYPE_NAME" id="07EF157C-EDE6-73AC-67B6-7ED5A1A4D342">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Store type name]]></commentInRDBMS>
+<generatorID>B64BC334-F012-BCF8-3F53-6046CF0E829F</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9750E309-733B-A581-86D4-A8BBCC369334" name="JLS_STORETYPE_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>786E770A-2DC6-0E03-C293-9E045340C23F</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3E9683F-FB6F-F630-B6EE-A795C5DECAD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

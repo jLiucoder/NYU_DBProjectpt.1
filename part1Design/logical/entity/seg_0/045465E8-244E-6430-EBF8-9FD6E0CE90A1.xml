@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="045465E8-244E-6430-EBF8-9FD6E0CE90A1" name="GROUPS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="045465E8-244E-6430-EBF8-9FD6E0CE90A1" name="JLS_GROUPS">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 18:45:34 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -49,8 +49,9 @@
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 18:45:58 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

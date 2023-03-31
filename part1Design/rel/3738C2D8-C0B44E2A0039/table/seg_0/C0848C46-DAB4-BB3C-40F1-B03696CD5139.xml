@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0848C46-DAB4-BB3C-40F1-B03696CD5139" name="JLS_TICKETS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>28CD40A6-9534-004E-4268-7B61EB629238</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TKT_ID" id="D7E44FFB-1117-C72E-484B-9106C3257DAC">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique ticket ID]]></commentInRDBMS>
+<generatorID>2C867FB9-730F-063C-E8AD-FD502805B59F</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_METHOD" id="6038B859-7A9B-234A-80C1-5C64A1473D47">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket method, online OL or onsite OS]]></commentInRDBMS>
+<generatorID>2A6922DB-074B-76DA-9D92-88BAA232EBF1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_PURCHASEDATE" id="0670B22D-28A1-9504-F29B-6C8F376356E9">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Purchase date of the ticket]]></commentInRDBMS>
+<generatorID>35F13DAD-4CB6-F9ED-001C-3B53ED8B8130</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_VISITDATE" id="DBE9F101-D631-1CEB-4EA6-136D3946D153">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visit date of the ticket]]></commentInRDBMS>
+<generatorID>AEB6BFE2-02ED-A821-D20D-E3D79F81BD5B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_TYPE" id="0670562B-BAD5-342B-AF0E-DC68CE166021">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket type, Child,Adult,Senior,or Member]]></commentInRDBMS>
+<generatorID>2D615275-0159-9BDB-7AA4-1758A2D65750</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_PRICE" id="F9F707C8-B848-724E-44CB-511A808CD94A">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket Price of the ticket]]></commentInRDBMS>
+<generatorID>87082CFA-1656-E917-DF32-78CB9CD801C7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_DISCOUNT" id="D78338E5-9512-846A-4751-7A909613AD8E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Percentage off of the ticket]]></commentInRDBMS>
+<generatorID>DC2D070B-D26C-0D4C-DBA8-12FF5B2C914F</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ID" id="5B9FA654-46C3-B6E5-94B3-A5380C863A09">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>9D6FE5CF-9B54-B0AC-7FC8-4B39A9B384B0</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8170E12-8A2B-3C7F-52E3-5A3520372ED9" referredColumn="B36191BF-56B8-2A67-ADA7-7C34E42E58DA"/>
+</associations>
+</Column>
+<Column name="INVOICE_ID" id="A792E1DC-CB51-AB4F-F10D-C47E458568C8">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>E1FEE66B-CE1D-5C72-CFE9-805841F71165</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8AAD314-7E19-B830-359B-DE0373F35075" referredColumn="29690660-FFF1-89C5-1990-45FB91A751B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D9B2B0C-B992-29B3-165A-EE12D6B20604" name="JLS_TICKETS_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>4EB92F8A-46CE-A184-BD5C-710CD1F10E85</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7E44FFB-1117-C72E-484B-9106C3257DAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2148C349-0245-0008-6A1B-C5987384A0B4" name="JLS_TICKETS_JLS_VISITORS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>B8021B09-BA09-3B25-E8C7-C555AA4CE6A1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B9FA654-46C3-B6E5-94B3-A5380C863A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EF63101-2329-2B23-8368-97F4C491FF4B" name="JLS_TICKETS_JLS_INVOICE_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 19:09:54 UTC</createdTime>
+<generatorID>999CCCF0-152E-2556-0421-49D4354BCED3</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A792E1DC-CB51-AB4F-F10D-C47E458568C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
