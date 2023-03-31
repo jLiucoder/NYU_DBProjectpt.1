@@ -69,7 +69,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MENUITEM_ID" id="2EA32304-509D-92DC-2C31-4148A281B229">
 <createdBy>jiayuliu</createdBy>
@@ -84,7 +84,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="V_ID" id="F53ED001-00D2-65A8-07EA-4FFA89E69CDA">
 <createdBy>jiayuliu</createdBy>
@@ -99,6 +99,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="559F4F02-3DBF-D2D6-5F3A-F9A512F033C4">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 16:07:51 UTC</createdTime>
+<generatorID>9B187CC6-3CD4-36B3-14AB-850ED395BC0F</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>C9321104-ECBD-7C3E-42CB-ECE9AB6983CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

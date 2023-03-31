@@ -125,7 +125,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SHOWTYPE_ID" id="38899320-58B1-1345-4070-961F55DCFC2A">
 <createdBy>jiayuliu</createdBy>
@@ -136,6 +136,21 @@
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
 <referedAttribute>5F91A860-EDA8-76AE-7022-FC7EE49ABB2E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="60AADA26-5274-4A59-1D49-ADF4114436AA">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 16:07:36 UTC</createdTime>
+<generatorID>7FBDFDE8-2FC7-CFB1-7E9D-9DB133705261</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>C9321104-ECBD-7C3E-42CB-ECE9AB6983CC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

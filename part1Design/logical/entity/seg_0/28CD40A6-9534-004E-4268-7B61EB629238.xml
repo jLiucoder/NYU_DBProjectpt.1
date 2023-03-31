@@ -124,6 +124,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="E1FEE66B-CE1D-5C72-CFE9-805841F71165">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 16:07:44 UTC</createdTime>
+<generatorID>999CCCF0-152E-2556-0421-49D4354BCED3</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>C9321104-ECBD-7C3E-42CB-ECE9AB6983CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
