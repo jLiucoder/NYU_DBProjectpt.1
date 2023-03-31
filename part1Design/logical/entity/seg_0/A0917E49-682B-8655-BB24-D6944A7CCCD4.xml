@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0917E49-682B-8655-BB24-D6944A7CCCD4" name="STORE_MENU">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0917E49-682B-8655-BB24-D6944A7CCCD4" name="JLS_STORE_MENU">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:45:04 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>

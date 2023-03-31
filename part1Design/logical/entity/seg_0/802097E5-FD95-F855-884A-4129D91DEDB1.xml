@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802097E5-FD95-F855-884A-4129D91DEDB1" name="ATTRACTIONS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802097E5-FD95-F855-884A-4129D91DEDB1" name="JLS_ATTRACTIONS">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:03:52 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -140,7 +140,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ATTRTYPE_ID" id="2AF49ACF-5A62-1BC9-A798-A465AF34A8DF">
 <createdBy>jiayuliu</createdBy>
@@ -155,7 +155,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
