@@ -43,20 +43,6 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STR_CATEGORY" id="FB210569-A3D0-5408-E2A7-858CEAC5C407">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 00:21:05 UTC</createdTime>
-<commentInRDBMS><![CDATA[Store categoty]]></commentInRDBMS>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="STR_MENUITEM" id="C1274E73-F5DB-4015-7981-DD95D54CEB33">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:22:57 UTC</createdTime>
@@ -99,6 +85,21 @@
 <dataTypePrecision>2</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STORETYPE_ID" id="65B8459B-965F-510B-37EF-47D1BFA79D65">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:43:16 UTC</createdTime>
+<generatorID>3F969713-AC0C-2575-2110-6FF48FD78B84</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>85F80A56-6FBC-02C4-6794-20576F373950</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

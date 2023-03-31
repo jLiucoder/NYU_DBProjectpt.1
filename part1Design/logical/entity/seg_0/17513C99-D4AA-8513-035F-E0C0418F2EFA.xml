@@ -57,18 +57,6 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_TYPE" id="0B9C65AE-7018-D12A-B2E9-6C80F03B9D2E">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:24:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[Show type]]></commentInRDBMS>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="SH_STARTTIME" id="91D68C9C-AA7D-BE1E-08E9-A7D2FEC4C129">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:25:14 UTC</createdTime>
@@ -123,6 +111,36 @@
 <dataTypePrecision>3</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_ID" id="50F8AC4F-9578-CA39-0FBC-318893F9DF31">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:19:19 UTC</createdTime>
+<generatorID>D93492E7-724D-A39E-3CF8-67056466E84D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHOWTYPE_ID" id="38899320-58B1-1345-4070-961F55DCFC2A">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:41:17 UTC</createdTime>
+<generatorID>6558BE87-0D6E-BD24-C86F-6C1CE9376A49</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>5F91A860-EDA8-76AE-7022-FC7EE49ABB2E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

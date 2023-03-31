@@ -56,31 +56,14 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="V_ID" id="499DA5EC-6923-0165-C96D-4AC7F3D6D582">
+<Attribute name="STR_ID" id="036EBD79-350A-E68D-9977-0A8C50AF034C">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 19:42:05 UTC</createdTime>
-<generatorID>8BFAA6D4-0F90-6F98-8DB1-252C606B50E8</generatorID>
+<createdTime>2023-03-31 02:49:27 UTC</createdTime>
+<generatorID>8245832E-6A51-299D-5183-A1FF9341653F</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="STR_ID" id="9CCAE3CC-4981-6C3A-85B8-E9AF11B24785">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 19:43:53 UTC</createdTime>
-<generatorID>638D93C8-B159-C0E4-4BB4-DCB50E7EB143</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>15E6B910-09EC-3A05-326B-924C3F5EA516</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,20 +71,34 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PAY_ID" id="4808251E-F729-27D3-1E97-79B56874AB71">
+<Attribute name="MENUITEM_ID" id="2EA32304-509D-92DC-2C31-4148A281B229">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 20:47:43 UTC</createdTime>
-<generatorID>C1856D59-DCBD-DCDB-EC24-27ABEFF93856</generatorID>
+<createdTime>2023-03-31 02:49:42 UTC</createdTime>
+<generatorID>5B6E658D-FBC4-9D83-F6C4-3A775D699883</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F74D2835-FC44-70FE-2BEA-4A4CB122E8D7</referedAttribute>
+<referedAttribute>B21CABD9-86B4-96B3-5244-B76C1ACBA1EE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_ID" id="F53ED001-00D2-65A8-07EA-4FFA89E69CDA">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:49:57 UTC</createdTime>
+<generatorID>712F7B29-D776-2AF0-62AC-BCD62570B406</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

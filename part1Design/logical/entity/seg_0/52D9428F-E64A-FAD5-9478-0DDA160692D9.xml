@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52D9428F-E64A-FAD5-9478-0DDA160692D9" name="ATTRA_TYPE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:35:15 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ATTRTYPE_ID" id="8D252551-D2B6-E5AC-FF07-9089F200E5AE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:35:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Attraction type ID]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTRTYPE_NAME" id="E9E3616C-8251-A7CB-EC55-B16FFA57313E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:36:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction Type]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BEA4A1E-14AF-267D-C800-26E14B64F769" name="ATTRA_TYPE PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:35:52 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D252551-D2B6-E5AC-FF07-9089F200E5AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

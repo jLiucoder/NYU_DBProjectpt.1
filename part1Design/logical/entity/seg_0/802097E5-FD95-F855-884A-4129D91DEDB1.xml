@@ -57,20 +57,6 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ATT_TYPE" id="33307A69-DB20-3DA8-C717-91DEA853A2FC">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:13:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[Attraction type]]></commentInRDBMS>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ATT_CAPACITY" id="24BFB792-C7D6-651B-B767-8BECC22F1F79">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:13:25 UTC</createdTime>
@@ -126,6 +112,50 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_STATUS" id="4F163AEE-FE3B-0EE5-6F03-0161B6EBB370">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 03:01:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[status can be closed, open, under mantainence]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_ID" id="67396D25-AF27-A595-FC67-EDAD2D0F0E01">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:18:36 UTC</createdTime>
+<generatorID>F9754E1E-FAD1-55CA-CCC8-B7B65FFB3F5D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>2C867FB9-730F-063C-E8AD-FD502805B59F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTRTYPE_ID" id="2AF49ACF-5A62-1BC9-A798-A465AF34A8DF">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-31 02:37:24 UTC</createdTime>
+<generatorID>99456F8B-A4CC-FC9C-6CCB-C50B663891DA</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>8D252551-D2B6-E5AC-FF07-9089F200E5AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

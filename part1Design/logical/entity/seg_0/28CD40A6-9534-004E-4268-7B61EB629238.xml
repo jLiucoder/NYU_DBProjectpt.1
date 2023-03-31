@@ -111,10 +111,10 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="V_ID" id="D9AB710C-EA2B-4CE1-EFB5-48D24B866075">
+<Attribute name="V_ID" id="9D6FE5CF-9B54-B0AC-7FC8-4B39A9B384B0">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 19:54:50 UTC</createdTime>
-<generatorID>0C0DF048-C8BA-E31C-6ED2-FC268869E2EE</generatorID>
+<createdTime>2023-03-31 02:17:54 UTC</createdTime>
+<generatorID>B8021B09-BA09-3B25-E8C7-C555AA4CE6A1</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -124,23 +124,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PAY_ID" id="11BB86B7-86C6-B6A0-A0FC-D5AA9FA30B25">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 20:40:47 UTC</createdTime>
-<generatorID>0AD55BEC-05DB-7AE6-36F4-D96905F8609A</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F74D2835-FC44-70FE-2BEA-4A4CB122E8D7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

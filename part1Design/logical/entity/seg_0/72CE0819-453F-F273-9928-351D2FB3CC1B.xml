@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>444ECE4B-B03A-ED96-76DA-FC076EC3F210</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="PAY_ID" id="F74D2835-FC44-70FE-2BEA-4A4CB122E8D7">
 <createdBy>jiayuliu</createdBy>
@@ -71,16 +73,15 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PK_ID" id="AC5FE4EC-E0D8-8ED1-C1E5-2A6EC0BDE8B1">
+<Attribute name="INVOICE_ID" id="6DB01E0F-0CD6-3291-D846-A3F4DA2C6AE2">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 20:33:01 UTC</createdTime>
-<generatorID>595CE19E-553E-079B-4CFE-FDB1020416E4</generatorID>
+<createdTime>2023-03-29 23:45:27 UTC</createdTime>
+<generatorID>AAC174A7-5D43-B5B5-868C-A9E2CDE4FF6B</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>49667726-CCD9-666E-4D24-B68E4C716C54</referedAttribute>
+<referedAttribute>C9321104-ECBD-7C3E-42CB-ECE9AB6983CC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
