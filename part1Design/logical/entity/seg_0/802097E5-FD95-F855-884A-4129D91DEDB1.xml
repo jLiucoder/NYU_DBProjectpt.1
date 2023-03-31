@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802097E5-FD95-F855-884A-4129D91DEDB1" name="ATTRACTIONS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:03:52 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ATT_ID" id="55367CF0-2B60-5FF9-342F-F13B0B45CE10">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:07:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Attration ID]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_NAME" id="A7933E91-DD87-2785-EB2A-0CEE51CA6425">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:11:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of the attraction]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_DESCRIP" id="E921A243-E589-7737-D7C3-935C490555A8">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:12:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction descriptions]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_TYPE" id="33307A69-DB20-3DA8-C717-91DEA853A2FC">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:13:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction type]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_CAPACITY" id="24BFB792-C7D6-651B-B767-8BECC22F1F79">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:13:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction capacity]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_MINHEIGHT" id="3DCDBE6D-4637-4850-E9F1-CB4C1B207C17">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:14:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Minimum height requirement for the attraction in Centimeters. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_DURATION" id="F48B48A3-D20A-0311-2E03-BD3B31DFB1B5">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:17:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction duration, unit in MIN]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATT_LOCSECTION" id="5D95A087-D46D-060E-9799-0E5017BE21EE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:18:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location section for the attraction]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5321886-EC13-DBFC-80CE-DA1C4D7BE034" name="ATTRACTIONS PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 20:35:09 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55367CF0-2B60-5FF9-342F-F13B0B45CE10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F369196-DDE3-3DEB-28F8-EDE6D3BC3E98" name="ORDERS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:25:45 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER_ID" id="8A133FAE-C46A-BABC-1926-8D6458933928">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:25:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique order ID]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_DATE" id="131AEC8D-95D2-55ED-EC35-8EFDE029EFE8">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:26:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of the order placed]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_QUANTITY" id="A84884A5-9200-958E-2C1F-962CA70DBA80">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:26:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[quantities of the order]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_ID" id="499DA5EC-6923-0165-C96D-4AC7F3D6D582">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 19:42:05 UTC</createdTime>
+<generatorID>8BFAA6D4-0F90-6F98-8DB1-252C606B50E8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_ID" id="9CCAE3CC-4981-6C3A-85B8-E9AF11B24785">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 19:43:53 UTC</createdTime>
+<generatorID>638D93C8-B159-C0E4-4BB4-DCB50E7EB143</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>15E6B910-09EC-3A05-326B-924C3F5EA516</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAY_ID" id="4808251E-F729-27D3-1E97-79B56874AB71">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 20:47:43 UTC</createdTime>
+<generatorID>C1856D59-DCBD-DCDB-EC24-27ABEFF93856</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F74D2835-FC44-70FE-2BEA-4A4CB122E8D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="286890CB-1304-40BE-F348-BF7440359F84" name="ORDERS PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:44:18 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A133FAE-C46A-BABC-1926-8D6458933928</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

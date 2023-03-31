@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F296A97-E695-8F18-99EE-9D356D370E34" name="STORES">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:17:47 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STR_ID" id="15E6B910-09EC-3A05-326B-924C3F5EA516">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:17:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique store ID]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_NAME" id="3DDCD081-BD0A-97F9-E36D-4A6B49DA1084">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:18:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the store]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_CATEGORY" id="FB210569-A3D0-5408-E2A7-858CEAC5C407">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:21:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Store categoty]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_MENUITEM" id="C1274E73-F5DB-4015-7981-DD95D54CEB33">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:22:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Menu item of the store]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_DESCRIP" id="AF1EDE6E-0F2A-043D-E171-BA51C768E9E3">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:23:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Store description of the store]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR_UPRICE" id="8E28BC13-D5CB-2C64-0608-1D469417889D">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:24:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unit price for the item]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EF55EC8-A096-6575-6CE6-FB20BDB81FBD" name="STORES PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:18:26 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15E6B910-09EC-3A05-326B-924C3F5EA516</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

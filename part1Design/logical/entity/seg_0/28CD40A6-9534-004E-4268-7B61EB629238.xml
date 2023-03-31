@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28CD40A6-9534-004E-4268-7B61EB629238" name="TICKETS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:33:02 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TKT_ID" id="2C867FB9-730F-063C-E8AD-FD502805B59F">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:33:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique ticket ID]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_METHOD" id="2A6922DB-074B-76DA-9D92-88BAA232EBF1">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:34:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket method, online OL or onsite OS]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_PURCHASEDATE" id="35F13DAD-4CB6-F9ED-001C-3B53ED8B8130">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:37:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Purchase date of the ticket]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_VISITDATE" id="AEB6BFE2-02ED-A821-D20D-E3D79F81BD5B">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:37:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visit date of the ticket]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_TYPE" id="2D615275-0159-9BDB-7AA4-1758A2D65750">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:37:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket type, Child,Adult,Senior,or Member]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_PRICE" id="87082CFA-1656-E917-DF32-78CB9CD801C7">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:38:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket Price of the ticket]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TKT_DISCOUNT" id="DC2D070B-D26C-0D4C-DBA8-12FF5B2C914F">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:39:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Percentage off of the ticket]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_ID" id="D9AB710C-EA2B-4CE1-EFB5-48D24B866075">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 19:54:50 UTC</createdTime>
+<generatorID>0C0DF048-C8BA-E31C-6ED2-FC268869E2EE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAY_ID" id="11BB86B7-86C6-B6A0-A0FC-D5AA9FA30B25">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 20:40:47 UTC</createdTime>
+<generatorID>0AD55BEC-05DB-7AE6-36F4-D96905F8609A</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F74D2835-FC44-70FE-2BEA-4A4CB122E8D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EB92F8A-46CE-A184-BD5C-710CD1F10E85" name="TICKETS PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-19 00:44:07 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C867FB9-730F-063C-E8AD-FD502805B59F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

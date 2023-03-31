@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B6FEC90-FFFB-CA9E-78C1-CA33090486EB" name="VISITORS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:46:45 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="V_ID" id="2EB13D4C-2FD1-C236-D735-D178DB966156">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:47:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Visitor ID]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_FNAME" id="81F5236E-DF71-AA7B-B4D8-FFA490B6CD81">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:48:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's firstname]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_LNAME" id="52EC3EBA-2BE3-A00C-11A8-D65CFE6502D4">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:48:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's lastname]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_STATE" id="D74FF9BE-C9BC-01AC-6FCD-31C51EEFA94C">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:48:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's state address]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_CITY" id="7FE3E447-00CB-5758-9340-A55D9BF8B969">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:49:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's city address]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_STADDR" id="A8E3A08B-5515-FE2B-2B6F-B0FD6308B730">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:50:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's street address]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_ZIP" id="26E23429-B913-7F33-D815-50A1817C54A4">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:50:58 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_EMAIL" id="BD176CCA-C938-6B43-E826-5A6F9EB97184">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:52:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's Email]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_PHONENUM" id="455EEAF9-821F-9622-84BC-D2260305BF90">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:54:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's phone number]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_DOB" id="A24D75AD-A93C-35B9-3F7D-176F4EA11B6D">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:55:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[date of birth of the visitor]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_TYPE" id="2A9B5865-B973-5F31-996A-2B3A8C957DEE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:56:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor type,INDI, GROUP, MEMBER,STUDENT]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="V_VDATE" id="0CBA5CF1-A7FF-962B-30C1-4A38809C6E9E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:59:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visiting date for the visitor]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28F11F96-10FE-0290-FA62-0F40D5B653E4" name="VISITORS PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-03-18 19:47:23 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2EB13D4C-2FD1-C236-D735-D178DB966156</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
