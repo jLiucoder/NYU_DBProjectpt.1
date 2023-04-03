@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A086271-B0C6-08DC-CBBE-859974EBCD6A" name="JLS_GROUPS">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>045465E8-244E-6430-EBF8-9FD6E0CE90A1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="G_ID" id="BAFC7AD6-DEAF-2D16-577C-19CC7CBDC0B5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Group ID ]]></commentInRDBMS>
+<generatorID>19FC195B-BD4E-7921-7D0A-962642C5DEAB</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_NAME" id="76FCEBC0-D9EC-F3F2-F60B-F4B6C8817ED0">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Group name]]></commentInRDBMS>
+<generatorID>092C6DE4-7A82-4348-833D-1AA48593081E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_AMOUNT" id="B323D68B-76F5-CA51-3CF0-19F405A0C280">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[How many people are there in a group. ]]></commentInRDBMS>
+<generatorID>08F91444-0705-89AD-27A2-C48E3A408A51</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_ID" id="10B35B93-CCA7-01D8-DFAD-123D8CE1F8FD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>DC53C74B-90D5-412D-E2ED-BD8B42330AE9</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB863546-D010-7C15-CB33-F422874BA989" referredColumn="D8D56030-5E0C-10AA-5BF8-85A60EE6DF8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7238D3A6-9FA4-7ECD-5C2D-A04076BE9DAF" name="JLS_GROUPS_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>1415E4D1-3F9F-9E98-2792-2A124A98E0A8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAFC7AD6-DEAF-2D16-577C-19CC7CBDC0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="716829DC-B925-883E-964D-EAFC8B4C94B8" name="JLS_GROUPS_JLS_MEMBER_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>01244680-2E91-6AE0-2C3F-EAA61EDBB722</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10B35B93-CCA7-01D8-DFAD-123D8CE1F8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

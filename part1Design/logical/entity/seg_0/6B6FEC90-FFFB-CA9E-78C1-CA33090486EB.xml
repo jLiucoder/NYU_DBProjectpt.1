@@ -127,7 +127,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="V_PHONENUM" id="455EEAF9-821F-9622-84BC-D2260305BF90">
+<Attribute name="V_PHONE" id="455EEAF9-821F-9622-84BC-D2260305BF90">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 19:54:54 UTC</createdTime>
 <commentInRDBMS><![CDATA[Visitor's phone number]]></commentInRDBMS>
@@ -181,7 +181,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MEMBER_ID" id="DBABD151-D093-25B9-447A-7386B6A8A775">
+<Attribute name="M_ID" id="DBABD151-D093-25B9-447A-7386B6A8A775">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:40:26 UTC</createdTime>
 <generatorID>0A26A90D-8055-0156-11EF-09B3C8941BF7</generatorID>
@@ -190,6 +190,7 @@
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
 <referedAttribute>C5264405-C68E-C957-BF2F-DEF7DC855819</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>

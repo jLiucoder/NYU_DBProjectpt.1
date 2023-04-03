@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08DBE92D-A543-D015-D877-D81ECC06BA2A" containerWithKeyObject="2BE170E7-1A8C-CE9B-A3C0-EE42714CFE41" localFKIndex="48B872FE-E03E-FB04-A65F-7627E6DA8014" name="JLS_PARKINGS_JLS_PKINVOI_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>E5459D97-B50F-BDEE-BCF2-6ABABB9A4DF6</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_PKINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DDDF8F7-0D61-58DF-0317-B859CFFBA313</referredTableID>
+<keyObject>5E35C0D9-FADB-C4E1-FFB4-43172DC95E43</keyObject>
+<referredKeyID>5E35C0D9-FADB-C4E1-FFB4-43172DC95E43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PKINVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

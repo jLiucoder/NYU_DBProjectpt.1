@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72CE0819-453F-F273-9928-351D2FB3CC1B" name="JLS_TKT_PAYMENTS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72CE0819-453F-F273-9928-351D2FB3CC1B" name="JLS_TKPAY">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:27:54 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -17,7 +17,7 @@
 <generateDiscrimColumn>true</generateDiscrimColumn>
 <discriminatorAttributeID>444ECE4B-B03A-ED96-76DA-FC076EC3F210</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TKT_PAY_ID" id="F74D2835-FC44-70FE-2BEA-4A4CB122E8D7">
+<Attribute name="TKPAY_ID" id="F74D2835-FC44-70FE-2BEA-4A4CB122E8D7">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:28:12 UTC</createdTime>
 <commentInRDBMS><![CDATA[Unique payment ID for the payment]]></commentInRDBMS>
@@ -31,7 +31,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_PAY_METHOD" id="444ECE4B-B03A-ED96-76DA-FC076EC3F210">
+<Attribute name="TKPAY_METHOD" id="444ECE4B-B03A-ED96-76DA-FC076EC3F210">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:29:17 UTC</createdTime>
 <commentInRDBMS><![CDATA[Payment method,CASH,CREDIT,DEBIT]]></commentInRDBMS>
@@ -45,7 +45,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_PAY_DATE" id="37D21A62-4123-176F-FF49-D6D8C8FEC0CC">
+<Attribute name="TKPAY_DATE" id="37D21A62-4123-176F-FF49-D6D8C8FEC0CC">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:31:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[Payment date of the current payment]]></commentInRDBMS>
@@ -58,7 +58,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_PAY_QUANT" id="6D53A7A4-8255-4840-5362-00BCE448622A">
+<Attribute name="TKPAY_QUANT" id="6D53A7A4-8255-4840-5362-00BCE448622A">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:31:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[Payment amount of the current payment]]></commentInRDBMS>
@@ -73,7 +73,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_INVOI_ID" id="6DB01E0F-0CD6-3291-D846-A3F4DA2C6AE2">
+<Attribute name="TKINVOI_ID" id="6DB01E0F-0CD6-3291-D846-A3F4DA2C6AE2">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-29 23:45:27 UTC</createdTime>
 <generatorID>AAC174A7-5D43-B5B5-868C-A9E2CDE4FF6B</generatorID>
@@ -86,7 +86,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

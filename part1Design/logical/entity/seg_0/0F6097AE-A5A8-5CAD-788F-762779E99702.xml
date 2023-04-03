@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F6097AE-A5A8-5CAD-788F-762779E99702" name="JLS_PARK_INVOICE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F6097AE-A5A8-5CAD-788F-762779E99702" name="JLS_PKINVOI">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:33:29 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PARK_INVOI_ID" id="BACACF09-6F58-3120-C6DF-E2D2C4BB2E47">
+<Attribute name="PKINVOI_ID" id="BACACF09-6F58-3120-C6DF-E2D2C4BB2E47">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:33:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[Parking invoice ID.]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PARK_INVOI_DATE" id="CED0E51B-E648-E3A0-C7A4-3278B3288986">
+<Attribute name="PKINVOI_DATE" id="CED0E51B-E648-E3A0-C7A4-3278B3288986">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:33:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[Parking invoice date. ]]></commentInRDBMS>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PARK_INVOI_QUANT" id="528D3036-CCCB-C230-1F8B-7AB753452055">
+<Attribute name="PKINVOI_QUANT" id="528D3036-CCCB-C230-1F8B-7AB753452055">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:34:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[Parking invoice quant. ]]></commentInRDBMS>

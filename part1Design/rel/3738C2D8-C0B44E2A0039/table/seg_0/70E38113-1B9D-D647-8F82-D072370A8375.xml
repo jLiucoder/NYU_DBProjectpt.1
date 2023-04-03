@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70E38113-1B9D-D647-8F82-D072370A8375" name="JLS_PKPAY">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>8DD6A783-4C62-60F6-58E5-36D0A7560760</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PKPAY_ID" id="38346A25-D6C3-05F0-570D-ADE0527D55D1">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for parking. ]]></commentInRDBMS>
+<generatorID>F60BD06A-CF1D-A00F-12B3-BEA137D73000</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKPAY_METHOD" id="B623873D-E088-7186-B34A-2AF190276BBC">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking payment method. ]]></commentInRDBMS>
+<generatorID>5E0D7AD5-E5CA-C3C7-502A-CD6CA408E3B8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKPAY_DATE" id="706B114A-EDC2-9968-20EB-E5A351B3B1CF">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking payment date. ]]></commentInRDBMS>
+<generatorID>E8D42041-5835-164D-166E-7E979265A700</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKPAY_QUANT" id="0C6616AD-7823-7B80-FFF7-4E97B50B7702">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking payment quantity. ]]></commentInRDBMS>
+<generatorID>3A75EBAE-1AF1-A3B4-D1FD-B416EBB393E5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKINVOI_ID" id="5A981E7D-2EAE-703C-87AE-2681D7F7053E">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>91B96605-A3DC-EA23-8FAC-B9BB65A40983</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73E3B5BF-3B68-D0FC-ABE6-61C0382993D7" referredColumn="CD0FBA74-79E3-5CCB-1331-BB731990E2CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ECB74E9-A068-9991-54BF-0443C8B74807" name="JLS_PKPAY_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>656C45FC-6C06-722A-B8B0-86F78EB2FEE8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38346A25-D6C3-05F0-570D-ADE0527D55D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04EE7F8C-BFA0-C425-F981-81AAE2264920" name="JLS_PKPAY_JLS_PKINVOI_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>E5C87A14-37C9-BBB9-06D4-243A46E519CD</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A981E7D-2EAE-703C-87AE-2681D7F7053E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -40,8 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SH_TYPE" id="C036E7E9-2DE1-6B8E-CDAC-4D5F8E22B612">
 <createdBy>Dell</createdBy>
@@ -54,10 +54,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_DESCRIP" id="06B831AA-7E54-B843-4BDE-59F567F64C37">
+<Attribute name="SH_DES" id="06B831AA-7E54-B843-4BDE-59F567F64C37">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:24:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[Show description]]></commentInRDBMS>
@@ -71,7 +71,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_STARTTIME" id="91D68C9C-AA7D-BE1E-08E9-A7D2FEC4C129">
+<Attribute name="SH_STIME" id="91D68C9C-AA7D-BE1E-08E9-A7D2FEC4C129">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:25:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[Starting time of the show]]></commentInRDBMS>
@@ -84,7 +84,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_ENDTIME" id="6900ECC0-5906-90E8-2B94-1008530E4BAF">
+<Attribute name="SH_ETIME" id="6900ECC0-5906-90E8-2B94-1008530E4BAF">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:31:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[Ending time of the show]]></commentInRDBMS>
@@ -97,7 +97,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_WCACCESS" id="B0C72BBA-4131-1283-C9CA-45E80635AA51">
+<Attribute name="SH_WCACC" id="B0C72BBA-4131-1283-C9CA-45E80635AA51">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:32:16 UTC</createdTime>
 <commentInRDBMS><![CDATA[If the show is wheelchair accessible]]></commentInRDBMS>
@@ -141,7 +141,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_INVOI_ID" id="FA6477F9-4447-0F35-9EC5-C94887670BE4">
+<Attribute name="SHINVOI_ID" id="FA6477F9-4447-0F35-9EC5-C94887670BE4">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-01 19:20:10 UTC</createdTime>
 <generatorID>54A3B7F1-8AEC-762A-67DC-B987392AFCC7</generatorID>
@@ -154,7 +154,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

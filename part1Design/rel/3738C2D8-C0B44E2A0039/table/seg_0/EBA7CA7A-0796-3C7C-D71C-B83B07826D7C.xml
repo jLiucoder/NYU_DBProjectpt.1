@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBA7CA7A-0796-3C7C-D71C-B83B07826D7C" name="JLS_STORES">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>0F296A97-E695-8F18-99EE-9D356D370E34</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ST_ID" id="B640E6DE-A192-51D3-EABE-8A2CF1EBBFD9">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique store ID]]></commentInRDBMS>
+<generatorID>15E6B910-09EC-3A05-326B-924C3F5EA516</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_NAME" id="2323FCC1-37AC-B4FA-DFDA-F95ED0173C98">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the store]]></commentInRDBMS>
+<generatorID>3DDCD081-BD0A-97F9-E36D-4A6B49DA1084</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_CAT" id="D52E5EC6-4B2A-5E2D-1575-4B4AA4A7DD1B">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Store category. Category can be Food stall, Ice cream parlor, Restaurant, Gift Shop, Apparels ]]></commentInRDBMS>
+<generatorID>C1274E73-F5DB-4015-7981-DD95D54CEB33</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD4B3AAD-C23F-EF48-91E1-B7D270CFF496" name="JLS_STORES_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>7EF55EC8-A096-6575-6CE6-FB20BDB81FBD</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B640E6DE-A192-51D3-EABE-8A2CF1EBBFD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

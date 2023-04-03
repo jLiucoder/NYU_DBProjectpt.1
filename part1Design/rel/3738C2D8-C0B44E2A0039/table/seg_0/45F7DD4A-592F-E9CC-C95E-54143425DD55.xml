@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45F7DD4A-592F-E9CC-C95E-54143425DD55" name="JLS_VISITORS">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>6B6FEC90-FFFB-CA9E-78C1-CA33090486EB</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="V_ID" id="4CAD9132-503B-4ECD-F94C-2A71DB793A60">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Visitor ID]]></commentInRDBMS>
+<generatorID>2EB13D4C-2FD1-C236-D735-D178DB966156</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FNAME" id="FA18DD02-6BAF-45CF-91DB-29D8D022D23A">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's firstname]]></commentInRDBMS>
+<generatorID>81F5236E-DF71-AA7B-B4D8-FFA490B6CD81</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_LNAME" id="3BB78BDF-BE84-0837-ABE3-7D97FB22C53C">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's lastname]]></commentInRDBMS>
+<generatorID>52EC3EBA-2BE3-A00C-11A8-D65CFE6502D4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_STATE" id="11A47AA1-C676-F0E3-13BD-3A06A563DBEB">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's state address]]></commentInRDBMS>
+<generatorID>D74FF9BE-C9BC-01AC-6FCD-31C51EEFA94C</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_CITY" id="970D55FD-7A8F-E172-FDED-FDC9EB2C63D7">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's city address]]></commentInRDBMS>
+<generatorID>7FE3E447-00CB-5758-9340-A55D9BF8B969</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_STADDR" id="C5BE623A-0EAD-70CD-213D-BCD8396B41EA">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's street address]]></commentInRDBMS>
+<generatorID>A8E3A08B-5515-FE2B-2B6F-B0FD6308B730</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ZIP" id="F2F6BA90-E63C-8F1D-88AC-996802FC9B14">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's zipcode. ]]></commentInRDBMS>
+<generatorID>26E23429-B913-7F33-D815-50A1817C54A4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_EMAIL" id="8F95E618-E9F8-0A8C-BD2B-8DF3C59F6F30">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's Email]]></commentInRDBMS>
+<generatorID>BD176CCA-C938-6B43-E826-5A6F9EB97184</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_PHONE" id="BC6A34AA-F3B0-2055-9C28-7F764BC41EC4">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's phone number]]></commentInRDBMS>
+<generatorID>455EEAF9-821F-9622-84BC-D2260305BF90</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_DOB" id="E07DBEE5-97CE-11F3-CFF4-630CD61ECF37">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[date of birth of the visitor]]></commentInRDBMS>
+<generatorID>A24D75AD-A93C-35B9-3F7D-176F4EA11B6D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_TYPE" id="F3B56D73-274F-BB7B-142F-F4B09FEB4D96">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor type,INDI, GROUP, MEMBER,STUDENT]]></commentInRDBMS>
+<generatorID>2A9B5865-B973-5F31-996A-2B3A8C957DEE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_VDATE" id="81024FAD-7A1E-D638-3271-6F4141A74D31">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visiting date for the visitor]]></commentInRDBMS>
+<generatorID>0CBA5CF1-A7FF-962B-30C1-4A38809C6E9E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_ID" id="A1A3FC4A-B3A7-3D3D-4098-6B95631842B9">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>DBABD151-D093-25B9-447A-7386B6A8A775</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10001211-93D6-4F22-250F-0654AE8CA086" referredColumn="D8D56030-5E0C-10AA-5BF8-85A60EE6DF8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="032A0B8E-1173-6292-52F5-A6AF4DAB3AD7" name="JLS_VISITORS_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>28F11F96-10FE-0290-FA62-0F40D5B653E4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CAD9132-503B-4ECD-F94C-2A71DB793A60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFFB0A05-1924-7E88-5898-A331CC8762F6" name="JLS_VISITORS_JLS_MEMBER_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>0A26A90D-8055-0156-11EF-09B3C8941BF7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1A3FC4A-B3A7-3D3D-4098-6B95631842B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

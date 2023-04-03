@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="MEMBER_ID" id="C5264405-C68E-C957-BF2F-DEF7DC855819">
+<Attribute name="M_ID" id="C5264405-C68E-C957-BF2F-DEF7DC855819">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:38:26 UTC</createdTime>
 <commentInRDBMS><![CDATA[Member's ID.]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MEMBER_STARTDATE" id="224C6F18-39C5-02E6-13C1-5520AFA9894C">
+<Attribute name="M_SDATE" id="224C6F18-39C5-02E6-13C1-5520AFA9894C">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:38:39 UTC</createdTime>
 <commentInRDBMS><![CDATA[Membership start date. ]]></commentInRDBMS>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MEMBER_ENDDATE" id="4C763732-1852-C4F5-E1EE-907ED2D08A3A">
+<Attribute name="M_EDATE" id="4C763732-1852-C4F5-E1EE-907ED2D08A3A">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:38:48 UTC</createdTime>
 <commentInRDBMS><![CDATA[Membership end date.]]></commentInRDBMS>

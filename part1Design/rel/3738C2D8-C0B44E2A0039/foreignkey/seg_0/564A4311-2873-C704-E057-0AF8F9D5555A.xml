@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="564A4311-2873-C704-E057-0AF8F9D5555A" containerWithKeyObject="14A00336-2609-345B-D703-7EB74CCC532B" localFKIndex="58851487-98D6-5FEB-1AE0-703446DE55DB" name="JLS_ST_MENU_JLS_STINVOI_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>20E3CCDC-08D5-6648-3F16-EDBE4F1C7A9B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_STINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4B15C11-826C-1A2F-82C7-A201F7F8A0F6</referredTableID>
+<keyObject>F2332B9C-09B1-89A7-1BBE-2D97E4E385FF</keyObject>
+<referredKeyID>F2332B9C-09B1-89A7-1BBE-2D97E4E385FF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STINVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

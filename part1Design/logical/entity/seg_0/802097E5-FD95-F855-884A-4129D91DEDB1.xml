@@ -85,7 +85,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ATT_MINHEIGHT" id="3DCDBE6D-4637-4850-E9F1-CB4C1B207C17">
+<Attribute name="ATT_MINHEI" id="3DCDBE6D-4637-4850-E9F1-CB4C1B207C17">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:14:04 UTC</createdTime>
 <commentInRDBMS><![CDATA[Minimum height requirement for the attraction in Centimeters. ]]></commentInRDBMS>
@@ -113,7 +113,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ATT_LOCSECTION" id="5D95A087-D46D-060E-9799-0E5017BE21EE">
+<Attribute name="ATT_LOCSEC" id="5D95A087-D46D-060E-9799-0E5017BE21EE">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:18:06 UTC</createdTime>
 <commentInRDBMS><![CDATA[Location section for the attraction]]></commentInRDBMS>
@@ -141,7 +141,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_ID" id="67396D25-AF27-A595-FC67-EDAD2D0F0E01">
+<Attribute name="TK_ID" id="67396D25-AF27-A595-FC67-EDAD2D0F0E01">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:18:36 UTC</createdTime>
 <generatorID>F9754E1E-FAD1-55CA-CCC8-B7B65FFB3F5D</generatorID>

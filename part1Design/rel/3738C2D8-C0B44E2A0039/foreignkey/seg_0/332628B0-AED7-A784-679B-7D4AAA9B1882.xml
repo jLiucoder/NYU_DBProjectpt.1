@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="332628B0-AED7-A784-679B-7D4AAA9B1882" containerWithKeyObject="CE803497-88F1-D06D-0C1D-879714109F0B" localFKIndex="13528104-D6B7-4C9C-4184-0937CA297C00" name="JLS_GPV_JLS_GROUPS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>4F72F711-D88B-E276-FE6C-6ED1247BE9EC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_GROUPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A086271-B0C6-08DC-CBBE-859974EBCD6A</referredTableID>
+<keyObject>7238D3A6-9FA4-7ECD-5C2D-A04076BE9DAF</keyObject>
+<referredKeyID>7238D3A6-9FA4-7ECD-5C2D-A04076BE9DAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>G_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

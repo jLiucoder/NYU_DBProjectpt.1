@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF317B58-26DA-55A2-6FDF-38B473C1F44F" name="JLS_SHCARD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>BA410F0A-9A19-16E6-AD97-2D17FE08B392</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHPAY_ID" id="075105BF-4739-4AF1-7AD6-8781F72B4F5C">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Show payment ID. ]]></commentInRDBMS>
+<generatorID>28C6A0D4-8E1C-F2F7-85B0-16425827DB1E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDCD2207-F852-D1AD-4769-6109D90589DB" referredColumn="E4DB1F57-9609-5C6B-F3E1-7121992F9DC1"/>
+</associations>
+</Column>
+<Column name="SHCRD_FNAME" id="12C26992-FA6A-E393-D7A8-CE0F86183525">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[card first name to pay for shows. ]]></commentInRDBMS>
+<generatorID>707D667A-EECB-5D86-26B3-24255866CBFF</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHCRD_LNAME" id="8FE176CF-9B64-0007-6A87-D1E4F1B25629">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card lastname to pay for shows. ]]></commentInRDBMS>
+<generatorID>BD7938BC-08CC-C81F-C085-DC9526828F4B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHCRD_NUM" id="76567F8C-61DC-417B-31A7-EC2A085ED2EB">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number to pay for shows. ]]></commentInRDBMS>
+<generatorID>81322856-2AD0-5645-1080-D616316F0E32</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHCRD_EDATE" id="DD183BFC-FB21-99A0-77B1-94A0BB413538">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date. ]]></commentInRDBMS>
+<generatorID>F24F1778-38B0-63BB-9A5F-687A6C874D05</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHCRD_CVV" id="B8CCAE09-77C8-FE7D-A101-97BBC15B2950">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number to pay for shows. ]]></commentInRDBMS>
+<generatorID>FCCD4CFA-B53F-D994-522A-F3BEAE0BAFD5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHCRD_TYPE" id="8E933B1D-7B39-D167-711F-33DE4619C0CA">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type to pay for shows. ]]></commentInRDBMS>
+<generatorID>E32CFD68-C024-B1B2-DFE0-7C850170C7F5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A542BD9-6C75-D694-9DA1-C777877C9363" name="JLS_SHCARD_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>4DCEE2E3-0858-49BF-605D-866D19214D0E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="075105BF-4739-4AF1-7AD6-8781F72B4F5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E21C18EC-7F69-CFAA-5ABF-ED1B7627A744" name="JLS_SHCARD_JLS_SHPAY_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>411276AA-9532-C740-96E0-254919D10D1B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="075105BF-4739-4AF1-7AD6-8781F72B4F5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -26,8 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PK_LOT" id="FCFFB4F3-2543-2696-A3A1-FB1034E969C5">
 <createdBy>jiayuliu</createdBy>
@@ -110,9 +110,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PARK_INVOI_ID" id="E6EDE984-E097-B7C8-3D27-FD7E7E5C602D">
+<Attribute name="PKINVOI_ID" id="E6EDE984-E097-B7C8-3D27-FD7E7E5C602D">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:34:29 UTC</createdTime>
 <generatorID>E5459D97-B50F-BDEE-BCF2-6ABABB9A4DF6</generatorID>
@@ -121,6 +121,7 @@
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
 <referedAttribute>BACACF09-6F58-3120-C6DF-E2D2C4BB2E47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>

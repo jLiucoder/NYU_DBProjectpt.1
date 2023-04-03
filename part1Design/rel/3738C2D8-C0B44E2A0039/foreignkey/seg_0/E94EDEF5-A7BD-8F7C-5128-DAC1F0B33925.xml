@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E94EDEF5-A7BD-8F7C-5128-DAC1F0B33925" containerWithKeyObject="569DDD51-FE3A-425E-6C24-714E332F3A8F" localFKIndex="4BBFD88D-CADC-9DFF-035F-1C3BD1A9B5A7" name="JLS_SHOWS_JLS_VISITORS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>D93492E7-724D-A39E-3CF8-67056466E84D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_VISITORS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45F7DD4A-592F-E9CC-C95E-54143425DD55</referredTableID>
+<keyObject>032A0B8E-1173-6292-52F5-A6AF4DAB3AD7</keyObject>
+<referredKeyID>032A0B8E-1173-6292-52F5-A6AF4DAB3AD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>V_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

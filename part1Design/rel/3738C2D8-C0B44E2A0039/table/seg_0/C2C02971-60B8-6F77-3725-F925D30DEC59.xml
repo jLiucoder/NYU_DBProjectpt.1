@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2C02971-60B8-6F77-3725-F925D30DEC59" name="JLS_PKCARD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>05753DF7-A2D2-B77E-1653-1133C89630B1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PKPAY_ID" id="D84A852A-5F00-7D2C-B7D4-DDFE6895A7C4">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for parking. ]]></commentInRDBMS>
+<generatorID>F60BD06A-CF1D-A00F-12B3-BEA137D73000</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1C5FF7C-892A-81BE-6870-02C8E2FC5747" referredColumn="38346A25-D6C3-05F0-570D-ADE0527D55D1"/>
+</associations>
+</Column>
+<Column name="PKCRD_FNAME" id="32882E1C-2EF0-3458-4355-8476D4E811AF">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card first name for payment for parking. ]]></commentInRDBMS>
+<generatorID>0A204140-1564-0345-6302-472BFCFC3475</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_LNAME" id="3837CE01-2352-3A4B-9943-2ED885AA9EB6">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card last name for payment for parking.]]></commentInRDBMS>
+<generatorID>3E232C96-D391-2B2D-6849-A7AA3E677DBE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_NUM" id="C5C79AD6-9812-6D11-7ECE-E94D71DAF1D5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number for parking ]]></commentInRDBMS>
+<generatorID>2F5DD0A6-71D5-A5FF-056E-E360CCD1A268</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_EDATE" id="D84290FD-FFB1-CC5D-8D0F-FF3DA3DECA87">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date for parking. ]]></commentInRDBMS>
+<generatorID>580C8437-2A0F-2C2F-16E2-262C68F68C36</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_CVV" id="9EE20E2B-B720-CE32-C866-B7CB986340A3">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number for payment for parking. ]]></commentInRDBMS>
+<generatorID>9C4D4764-CCC8-385D-7A08-DFA6F9B1A71B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_TYPE" id="382AD6B6-BBC9-9608-E448-C71603712B77">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type for payment of parking. ]]></commentInRDBMS>
+<generatorID>ACA6962C-3C38-0B05-CEBA-13DE136D3993</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42D25890-63F0-E779-4D67-0966B2BBE9EB" name="JLS_PKCARD_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>656C45FC-6C06-722A-B8B0-86F78EB2FEE8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84A852A-5F00-7D2C-B7D4-DDFE6895A7C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE486F43-E0D1-5226-03DF-ABFF802935C3" name="JLS_PKCARD_JLS_PKPAY_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>6E1F0676-9723-13AB-2851-83C6D78AAD3B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84A852A-5F00-7D2C-B7D4-DDFE6895A7C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

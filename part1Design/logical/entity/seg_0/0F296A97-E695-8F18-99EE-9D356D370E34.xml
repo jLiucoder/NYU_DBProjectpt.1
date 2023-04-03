@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="STR_ID" id="15E6B910-09EC-3A05-326B-924C3F5EA516">
+<Attribute name="ST_ID" id="15E6B910-09EC-3A05-326B-924C3F5EA516">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:17:57 UTC</createdTime>
 <commentInRDBMS><![CDATA[Unique store ID]]></commentInRDBMS>
@@ -26,10 +26,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STR_NAME" id="3DDCD081-BD0A-97F9-E36D-4A6B49DA1084">
+<Attribute name="ST_NAME" id="3DDCD081-BD0A-97F9-E36D-4A6B49DA1084">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:18:34 UTC</createdTime>
 <commentInRDBMS><![CDATA[Name of the store]]></commentInRDBMS>
@@ -43,7 +43,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STR_CAT" id="C1274E73-F5DB-4015-7981-DD95D54CEB33">
+<Attribute name="ST_CAT" id="C1274E73-F5DB-4015-7981-DD95D54CEB33">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:22:57 UTC</createdTime>
 <commentInRDBMS><![CDATA[Store category. Category can be Food stall, Ice cream parlor, Restaurant, Gift Shop, Apparels ]]></commentInRDBMS>
@@ -54,8 +54,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

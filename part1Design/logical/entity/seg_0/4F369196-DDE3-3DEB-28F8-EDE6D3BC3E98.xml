@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ORDER_ID" id="8A133FAE-C46A-BABC-1926-8D6458933928">
+<Attribute name="OR_ID" id="8A133FAE-C46A-BABC-1926-8D6458933928">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:25:52 UTC</createdTime>
 <commentInRDBMS><![CDATA[Unique order ID]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ORDER_DATE" id="131AEC8D-95D2-55ED-EC35-8EFDE029EFE8">
+<Attribute name="OR_DATE" id="131AEC8D-95D2-55ED-EC35-8EFDE029EFE8">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:26:19 UTC</createdTime>
 <commentInRDBMS><![CDATA[Date of the order placed]]></commentInRDBMS>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ORDER_QUANTITY" id="A84884A5-9200-958E-2C1F-962CA70DBA80">
+<Attribute name="OR_QUANT" id="A84884A5-9200-958E-2C1F-962CA70DBA80">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:26:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[quantities of the order]]></commentInRDBMS>
@@ -53,10 +53,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STR_ID" id="036EBD79-350A-E68D-9977-0A8C50AF034C">
+<Attribute name="ST_ID" id="036EBD79-350A-E68D-9977-0A8C50AF034C">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:49:27 UTC</createdTime>
 <generatorID>8245832E-6A51-299D-5183-A1FF9341653F</generatorID>
@@ -71,7 +71,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MENUITEM_ID" id="2EA32304-509D-92DC-2C31-4148A281B229">
+<Attribute name="IT_ID" id="2EA32304-509D-92DC-2C31-4148A281B229">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:49:42 UTC</createdTime>
 <generatorID>5B6E658D-FBC4-9D83-F6C4-3A775D699883</generatorID>

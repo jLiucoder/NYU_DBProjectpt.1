@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1937015F-9197-CDAF-AB75-7E9455A6973F" containerWithKeyObject="569DDD51-FE3A-425E-6C24-714E332F3A8F" localFKIndex="75302165-6232-C4E3-0426-E2A797AF0747" name="JLS_SHOWS_JLS_SHINVOI_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>54A3B7F1-8AEC-762A-67DC-B987392AFCC7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_SHINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C839074-FF39-BB43-B713-94E6D4641391</referredTableID>
+<keyObject>EC9A8F92-1208-9AF8-AA34-2E789C37D6D9</keyObject>
+<referredKeyID>EC9A8F92-1208-9AF8-AA34-2E789C37D6D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SHINVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

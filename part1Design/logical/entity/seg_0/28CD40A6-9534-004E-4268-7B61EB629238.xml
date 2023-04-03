@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TKT_ID" id="2C867FB9-730F-063C-E8AD-FD502805B59F">
+<Attribute name="TK_ID" id="2C867FB9-730F-063C-E8AD-FD502805B59F">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:33:27 UTC</createdTime>
 <commentInRDBMS><![CDATA[Unique ticket ID]]></commentInRDBMS>
@@ -26,10 +26,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_METHOD" id="2A6922DB-074B-76DA-9D92-88BAA232EBF1">
+<Attribute name="TK_METHOD" id="2A6922DB-074B-76DA-9D92-88BAA232EBF1">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:34:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[Ticket method, online OL or onsite OS]]></commentInRDBMS>
@@ -43,7 +43,7 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_PURCHASEDATE" id="35F13DAD-4CB6-F9ED-001C-3B53ED8B8130">
+<Attribute name="TK_PURDATE" id="35F13DAD-4CB6-F9ED-001C-3B53ED8B8130">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:37:01 UTC</createdTime>
 <commentInRDBMS><![CDATA[Purchase date of the ticket]]></commentInRDBMS>
@@ -56,7 +56,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_VISITDATE" id="AEB6BFE2-02ED-A821-D20D-E3D79F81BD5B">
+<Attribute name="TK_VDATE" id="AEB6BFE2-02ED-A821-D20D-E3D79F81BD5B">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:37:27 UTC</createdTime>
 <commentInRDBMS><![CDATA[Visit date of the ticket]]></commentInRDBMS>
@@ -69,7 +69,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_TYPE" id="2D615275-0159-9BDB-7AA4-1758A2D65750">
+<Attribute name="TK_TYPE" id="2D615275-0159-9BDB-7AA4-1758A2D65750">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:37:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[Ticket type, Child,Adult,Senior,or Member]]></commentInRDBMS>
@@ -83,7 +83,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_PRICE" id="87082CFA-1656-E917-DF32-78CB9CD801C7">
+<Attribute name="TK_PRICE" id="87082CFA-1656-E917-DF32-78CB9CD801C7">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:38:49 UTC</createdTime>
 <commentInRDBMS><![CDATA[Ticket Price of the ticket]]></commentInRDBMS>
@@ -97,7 +97,7 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_DISCOUNT" id="DC2D070B-D26C-0D4C-DBA8-12FF5B2C914F">
+<Attribute name="TK_DISCOUNT" id="DC2D070B-D26C-0D4C-DBA8-12FF5B2C914F">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:39:15 UTC</createdTime>
 <commentInRDBMS><![CDATA[Percentage off of the ticket]]></commentInRDBMS>
@@ -126,7 +126,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_INVOI_ID" id="E1FEE66B-CE1D-5C72-CFE9-805841F71165">
+<Attribute name="TKINVOI_ID" id="E1FEE66B-CE1D-5C72-CFE9-805841F71165">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 16:07:44 UTC</createdTime>
 <generatorID>999CCCF0-152E-2556-0421-49D4354BCED3</generatorID>
@@ -138,8 +138,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="185FF4FA-FE0C-AB3F-9561-00B2E2E0F101" name="JLS_ATTRACTIONS">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>802097E5-FD95-F855-884A-4129D91DEDB1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATT_ID" id="9BCE6373-A59B-1594-CE34-C68DA09282CC">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Attration ID]]></commentInRDBMS>
+<generatorID>55367CF0-2B60-5FF9-342F-F13B0B45CE10</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_NAME" id="1159F916-D9F4-5276-69A1-CF1CF63EE5AD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of the attraction]]></commentInRDBMS>
+<generatorID>A7933E91-DD87-2785-EB2A-0CEE51CA6425</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_TYPE" id="5C89EE1A-D583-B774-D018-145736D6EE38">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction type can be roller coaster, water ride, dark ride, kid ride etc. ]]></commentInRDBMS>
+<generatorID>3D6B0530-92E1-7F00-00BD-2DFD494490F2</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_DESCRIP" id="AE4BE1E1-577E-C7AE-6F2E-F7EB8C1E28DB">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction descriptions]]></commentInRDBMS>
+<generatorID>E921A243-E589-7737-D7C3-935C490555A8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_CAPACITY" id="59D9DF01-D7C1-D382-DD86-3E73638BFAC5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction capacity]]></commentInRDBMS>
+<generatorID>24BFB792-C7D6-651B-B767-8BECC22F1F79</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_MINHEI" id="244FE647-544D-2456-5E12-AADADD3FFDA6">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Minimum height requirement for the attraction in Centimeters. ]]></commentInRDBMS>
+<generatorID>3DCDBE6D-4637-4850-E9F1-CB4C1B207C17</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_DURATION" id="05196EE6-EBC7-1BC0-3B54-C02AA99ADA7F">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction duration, unit in MIN]]></commentInRDBMS>
+<generatorID>F48B48A3-D20A-0311-2E03-BD3B31DFB1B5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_LOCSEC" id="E456BA33-1155-7AE2-9243-8FF36EF949FE">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location section for the attraction]]></commentInRDBMS>
+<generatorID>5D95A087-D46D-060E-9799-0E5017BE21EE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_STATUS" id="A12DEE4A-3DAC-D5AD-5279-53BCEC6FCF60">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[status can be closed, open, under mantainence]]></commentInRDBMS>
+<generatorID>4F163AEE-FE3B-0EE5-6F03-0161B6EBB370</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TK_ID" id="E2556C76-C5DD-35D4-BFC8-563755C59847">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>67396D25-AF27-A595-FC67-EDAD2D0F0E01</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3C73B15-5C6A-9BFA-C8AF-20E6436AC34A" referredColumn="CB6D6A53-9CAD-B934-42B4-E7B80A333D61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A71DBE89-08FE-A2FD-8F6D-7B8513362A84" name="JLS_ATTRACTIONS_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>D5321886-EC13-DBFC-80CE-DA1C4D7BE034</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BCE6373-A59B-1594-CE34-C68DA09282CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE7E9E4A-E386-A299-A343-B13E47A7FDFE" name="JLS_ATTRACTIONS_JLS_TICKETS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>F9754E1E-FAD1-55CA-CCC8-B7B65FFB3F5D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2556C76-C5DD-35D4-BFC8-563755C59847"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

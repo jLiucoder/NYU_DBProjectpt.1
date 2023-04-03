@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F64FD631-303F-91A9-669B-C319D6398607" name="JLS_STPAY">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>17941332-D8C7-45A9-5B95-E586D03C412A</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STPAY_ID" id="8B49FAF0-35CA-F081-2DAE-2E6A7954A93C">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for stores. ]]></commentInRDBMS>
+<generatorID>2B61249C-161E-19DE-54D6-96C405449FBE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STPAY_METHOD" id="8355610A-44A9-A01C-51CB-1B285DA8129B">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment method fore stores. ]]></commentInRDBMS>
+<generatorID>59C4EEE1-FE0D-18B4-8147-2EA2596B93E1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STPAY_DATE" id="DEB2C817-7029-AA55-DAA7-E68A483C0115">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment date for stores. ]]></commentInRDBMS>
+<generatorID>3D15A27B-84F1-52B5-81E0-D4D67760A5D7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STPAY_QUANT" id="2454143C-5D05-9A12-0FFC-D16500F90B26">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment quantity for stores. ]]></commentInRDBMS>
+<generatorID>B94374BD-56AC-5D7F-FCCF-494D08ED4BD7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STINVOI_ID" id="56B222D0-5BCE-12CD-734B-5EEEB2529719">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>B4FFEEDE-81C4-D8F5-39A1-747747905DA5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5213AC0B-0C90-7E72-1FCF-8C2D3D150721" referredColumn="8E1EB17E-469E-A126-6FBF-B6F9CDF1945A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2150A78A-0E33-CDB4-C1D1-B0672CAE00B4" name="JLS_STPAY_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>EED324A1-C34B-1119-AB8A-0D2BA4BEB8CC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B49FAF0-35CA-F081-2DAE-2E6A7954A93C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5C83C73-7E5C-72C4-A558-378900E9C777" name="JLS_STPAY_JLS_STINVOI_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>1EF21A3D-C82D-D691-B83D-5676598C44A8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56B222D0-5BCE-12CD-734B-5EEEB2529719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

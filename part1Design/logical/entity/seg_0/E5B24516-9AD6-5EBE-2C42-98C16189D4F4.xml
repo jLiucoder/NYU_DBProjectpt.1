@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5B24516-9AD6-5EBE-2C42-98C16189D4F4" name="JLS_TKT_CARD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5B24516-9AD6-5EBE-2C42-98C16189D4F4" name="JLS_TKCARD">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:53:35 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TKT_CARD_FNAME" id="F61AD464-54F8-664C-6BEA-A41D172E7CC2">
+<Attribute name="TKCRD_FNAME" id="F61AD464-54F8-664C-6BEA-A41D172E7CC2">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:54:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[card holder firstname]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[card holder firstname to pay for tickets. ]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -30,10 +30,10 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_CARD_LNAME" id="C22B9A87-9C63-33C6-4F4A-E449F8D71267">
+<Attribute name="TKCRD_LNAME" id="C22B9A87-9C63-33C6-4F4A-E449F8D71267">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:55:20 UTC</createdTime>
-<commentInRDBMS><![CDATA[Card holder lastname]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Card holder lastname to pay for tickets. ]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -44,10 +44,10 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_CARD_NUM" id="9FA651D9-0F61-294F-52F9-EE606709ED0E">
+<Attribute name="TKCRD_NUM" id="9FA651D9-0F61-294F-52F9-EE606709ED0E">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:55:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[Card number]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Card number to pay for tickets. ]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -58,10 +58,10 @@
 <dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_CARD_EXPDATE" id="25917E9B-7803-3197-4C8F-CF12C185440D">
+<Attribute name="TKCRD_EDATE" id="25917E9B-7803-3197-4C8F-CF12C185440D">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:56:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[Experition date of the card]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Experition date of the card to pay for tickets. ]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -71,10 +71,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_CARD_CVV" id="D4A71F63-DF40-8C33-88FE-EB43993A8A27">
+<Attribute name="TKCRD_CVV" id="D4A71F63-DF40-8C33-88FE-EB43993A8A27">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:57:04 UTC</createdTime>
-<commentInRDBMS><![CDATA[CVV of card]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[CVV of card to pay for tickets. ]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -85,7 +85,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKT_CARD_TYPE" id="E47549EB-FAE1-3368-206A-AE5DE05F703C">
+<Attribute name="TKCRD_TYPE" id="E47549EB-FAE1-3368-206A-AE5DE05F703C">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 02:57:22 UTC</createdTime>
 <commentInRDBMS><![CDATA[C for credit, D for debit]]></commentInRDBMS>

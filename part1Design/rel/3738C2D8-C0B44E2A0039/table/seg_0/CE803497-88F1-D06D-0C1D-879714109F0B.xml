@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE803497-88F1-D06D-0C1D-879714109F0B" name="JLS_GPV">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>0DF77DBB-5A10-B2B4-25A0-122FF6FCFDA6</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="G_ID" id="AF81F1DF-8455-11BF-D14E-81100F9156DC">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>EA8A37E9-654C-F36F-D460-4CB9FFB40D3D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="332628B0-AED7-A784-679B-7D4AAA9B1882" referredColumn="BAFC7AD6-DEAF-2D16-577C-19CC7CBDC0B5"/>
+</associations>
+</Column>
+<Column name="V_ID" id="1AED9B12-67E6-F348-3C1A-650FC3D05F84">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>B07EFF84-832E-EBA3-5A53-B8E337F3BB2B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC3DFBF2-C75F-75BD-E971-C587D692FC18" referredColumn="4CAD9132-503B-4ECD-F94C-2A71DB793A60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13528104-D6B7-4C9C-4184-0937CA297C00" name="JLS_GPV_JLS_GROUPS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>4F72F711-D88B-E276-FE6C-6ED1247BE9EC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF81F1DF-8455-11BF-D14E-81100F9156DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6E65BA7-94D7-FFF7-932D-2E9F744F5E57" name="JLS_GPV_JLS_VISITORS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>83BD0DC6-2F44-0AB5-7FA4-4094B20F9FE5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AED9B12-67E6-F348-3C1A-650FC3D05F84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

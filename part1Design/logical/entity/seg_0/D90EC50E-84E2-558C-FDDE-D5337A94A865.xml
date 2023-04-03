@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D90EC50E-84E2-558C-FDDE-D5337A94A865" name="JLS_SH_INVOICE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D90EC50E-84E2-558C-FDDE-D5337A94A865" name="JLS_SHINVOI">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-01 19:17:09 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SH_INVOI_ID" id="1F9796E9-C467-3E41-5D99-742F4120D446">
+<Attribute name="SHINVOI_ID" id="1F9796E9-C467-3E41-5D99-742F4120D446">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-01 19:17:23 UTC</createdTime>
 <commentInRDBMS><![CDATA[Show invoice ID.]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_INVOI_DATE" id="04B1C626-A06A-C6B0-9982-C0BF74A4E2BB">
+<Attribute name="SHINVOI_DATE" id="04B1C626-A06A-C6B0-9982-C0BF74A4E2BB">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-01 19:17:50 UTC</createdTime>
 <commentInRDBMS><![CDATA[Show invoice date. ]]></commentInRDBMS>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SH_INVOI_QUANT" id="360534AC-80C4-999B-B973-3AB75DA4B7F0">
+<Attribute name="SHINVOI_QUANT" id="360534AC-80C4-999B-B973-3AB75DA4B7F0">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-01 19:18:07 UTC</createdTime>
 <commentInRDBMS><![CDATA[Quantity recorded in show invoice. ]]></commentInRDBMS>
