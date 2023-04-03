@@ -42,6 +42,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F08F93AC-EA21-4E39-3A61-7456CE7648D5" name="JLS_GPV_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-03 22:47:14 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF81F1DF-8455-11BF-D14E-81100F9156DC"/>
+<colUsage columnID="1AED9B12-67E6-F348-3C1A-650FC3D05F84"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="13528104-D6B7-4C9C-4184-0937CA297C00" name="JLS_GPV_JLS_GROUPS_FK">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>

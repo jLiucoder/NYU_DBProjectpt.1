@@ -62,22 +62,6 @@
 <colAssociation fkAssociation="3F7E4AD8-4289-BEA1-6D09-8E241424F502" referredColumn="B640E6DE-A192-51D3-EABE-8A2CF1EBBFD9"/>
 </associations>
 </Column>
-<Column name="IT_ID" id="771B3E5E-306B-950E-9F78-1B16EF1B0F87">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 21:07:09 UTC</createdTime>
-<generatorID>2EA32304-509D-92DC-2C31-4148A281B229</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5AA085EA-78B8-7EA3-1E72-35C27BDE29DA" referredColumn="8635F8EC-3E24-3E26-4207-A2C0BEB93499"/>
-</associations>
-</Column>
 <Column name="V_ID" id="A0FAB9F8-6AF1-B23C-9AD1-72024A6144E3">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>
@@ -94,6 +78,22 @@
 <colAssociation fkAssociation="B0B5626B-BE99-A6D7-3265-518223CC9539" referredColumn="4CAD9132-503B-4ECD-F94C-2A71DB793A60"/>
 </associations>
 </Column>
+<Column name="IT_ID" id="771B3E5E-306B-950E-9F78-1B16EF1B0F87">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 21:07:09 UTC</createdTime>
+<generatorID>2EA32304-509D-92DC-2C31-4148A281B229</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AA085EA-78B8-7EA3-1E72-35C27BDE29DA" referredColumn="8635F8EC-3E24-3E26-4207-A2C0BEB93499"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7A2E8A80-71D8-18CB-0409-8ADF51C2F29C" name="JLS_ORDERS_PK">
@@ -106,6 +106,8 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6685E2E6-E097-3DBC-6175-800FFE0C195D"/>
+<colUsage columnID="44B151B9-ED61-E18A-C679-FE966F1732AD"/>
+<colUsage columnID="A0FAB9F8-6AF1-B23C-9AD1-72024A6144E3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="52D1B610-AC9A-C612-E66D-23CE786556A1" name="JLS_ORDERS_JLS_STORES_FK">
