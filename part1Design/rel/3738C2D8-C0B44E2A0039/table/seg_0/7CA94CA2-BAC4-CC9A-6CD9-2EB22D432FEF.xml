@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CA94CA2-BAC4-CC9A-6CD9-2EB22D432FEF" name="JLS_STORE_MENU">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>A0917E49-682B-8655-BB24-D6944A7CCCD4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MENUITEM_ID" id="DA14060C-37BF-BFDE-7910-0A846BDBE699">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Menu item ID]]></commentInRDBMS>
+<generatorID>B21CABD9-86B4-96B3-5244-B76C1ACBA1EE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENUITEM_NAME" id="E1269E77-D6D2-1DD8-3B8B-58DBB81425A8">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Item name]]></commentInRDBMS>
+<generatorID>570B1025-0A5F-13EB-4B84-1896716DA34D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENUITEM_DESCRIP" id="877840A0-BF71-135E-391F-2335A0DF2BA7">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Menu item description. ]]></commentInRDBMS>
+<generatorID>6FD5014E-6C5C-996A-D939-9FC000D5036E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENUITEM_UPRICE" id="51CEA9FB-7C1E-CD17-1397-538DACACC475">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Menu item unit price. ]]></commentInRDBMS>
+<generatorID>9A6585B4-8AE9-F20E-470F-6A801CB516F5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_INVOI_ID" id="BAA9B16D-8DD5-C491-FF77-5958CAFD8ECA">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>25F547BC-4767-5BAD-F2DE-994FA6253421</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E8A2AE4-69BF-743D-87BE-B6E0B0B2F2F7" referredColumn="4265DAB5-7913-A3FD-A8EC-DBEEC6D7D2E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9E98DBB-51CE-585D-15A3-3674639503B7" name="JLS_STORE_MENU_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>A4335B75-451D-52E7-1ADA-A2775075BEC6</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA14060C-37BF-BFDE-7910-0A846BDBE699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB1CFC14-35AB-53F8-93FE-A9CD3F5FC69E" name="JLS_STORE_MENU_JLS_ST_INVOICE_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>20E3CCDC-08D5-6648-3F16-EDBE4F1C7A9B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA9B16D-8DD5-C491-FF77-5958CAFD8ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

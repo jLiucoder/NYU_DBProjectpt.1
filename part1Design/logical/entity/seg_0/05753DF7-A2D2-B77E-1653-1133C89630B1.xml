@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05753DF7-A2D2-B77E-1653-1133C89630B1" name="JLS_PARK_CARD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:35:47 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8DD6A783-4C62-60F6-58E5-36D0A7560760</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PARK_CARD_FNAME" id="0A204140-1564-0345-6302-472BFCFC3475">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:36:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card first name for payment for parking. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_CARD_LNAME" id="3E232C96-D391-2B2D-6849-A7AA3E677DBE">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:36:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card last name for payment for parking.]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_CARD_NUM" id="2F5DD0A6-71D5-A5FF-056E-E360CCD1A268">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:36:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number for parking ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_CARD_EXPDATE" id="580C8437-2A0F-2C2F-16E2-262C68F68C36">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:36:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date for parking. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_CARD_CVV" id="9C4D4764-CCC8-385D-7A08-DFA6F9B1A71B">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:37:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number for payment for parking. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_CARD_TYPE" id="ACA6962C-3C38-0B05-CEBA-13DE136D3993">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:37:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type for payment of parking. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F6097AE-A5A8-5CAD-788F-762779E99702" name="JLS_PARK_INVOICE">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:33:29 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PARK_INVOI_ID" id="BACACF09-6F58-3120-C6DF-E2D2C4BB2E47">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:33:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking invoice ID.]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_INVOI_DATE" id="CED0E51B-E648-E3A0-C7A4-3278B3288986">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:33:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking invoice date. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARK_INVOI_QUANT" id="528D3036-CCCB-C230-1F8B-7AB753452055">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:34:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking invoice quant. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65CBC2D3-74B2-82C9-6643-1D106A15E771" name="JLS_PARK_INVOICE PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:33:53 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BACACF09-6F58-3120-C6DF-E2D2C4BB2E47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

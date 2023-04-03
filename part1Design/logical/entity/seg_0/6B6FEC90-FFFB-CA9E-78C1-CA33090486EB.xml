@@ -102,6 +102,7 @@
 <Attribute name="V_ZIP" id="26E23429-B913-7F33-D815-50A1817C54A4">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 19:50:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's zipcode. ]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -164,8 +165,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="V_VDATE" id="0CBA5CF1-A7FF-962B-30C1-4A38809C6E9E">
 <createdBy>jiayuliu</createdBy>
@@ -178,6 +179,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEMBER_ID" id="DBABD151-D093-25B9-447A-7386B6A8A775">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:40:26 UTC</createdTime>
+<generatorID>0A26A90D-8055-0156-11EF-09B3C8941BF7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<referedAttribute>C5264405-C68E-C957-BF2F-DEF7DC855819</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

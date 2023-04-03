@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E76D2FD-21C3-1921-9B77-E38AE91A5C7F" name="JLS_TKT_CARD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>E5B24516-9AD6-5EBE-2C42-98C16189D4F4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TKT_PAY_ID" id="3FBE1D09-CE7E-1C0A-33E7-42C91F71266E">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique payment ID for the payment]]></commentInRDBMS>
+<generatorID>F74D2835-FC44-70FE-2BEA-4A4CB122E8D7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A12FB4-4486-43EC-71CA-AF961650B29A" referredColumn="81153F6A-B934-6A5F-201A-7EA0E0A38925"/>
+</associations>
+</Column>
+<Column name="TKT_CARD_FNAME" id="9D88CB8F-0B51-E6BC-7E81-F4D70FBA2A00">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[card holder firstname]]></commentInRDBMS>
+<generatorID>F61AD464-54F8-664C-6BEA-A41D172E7CC2</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_CARD_LNAME" id="065A0CAA-06CD-CD56-0016-C917818BCAB1">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card holder lastname]]></commentInRDBMS>
+<generatorID>C22B9A87-9C63-33C6-4F4A-E449F8D71267</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_CARD_NUM" id="73E51FDE-4892-9ED5-A400-A09D50CE95C6">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number]]></commentInRDBMS>
+<generatorID>9FA651D9-0F61-294F-52F9-EE606709ED0E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_CARD_EXPDATE" id="207C31AD-C719-88A7-2BA7-69A99F3713B5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Experition date of the card]]></commentInRDBMS>
+<generatorID>25917E9B-7803-3197-4C8F-CF12C185440D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_CARD_CVV" id="316FF0F1-ED5D-1217-72E6-A643778E779C">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[CVV of card]]></commentInRDBMS>
+<generatorID>D4A71F63-DF40-8C33-88FE-EB43993A8A27</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKT_CARD_TYPE" id="2BCDEBA7-3156-FB96-F6B1-48F736750A20">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[C for credit, D for debit]]></commentInRDBMS>
+<generatorID>E47549EB-FAE1-3368-206A-AE5DE05F703C</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14C4CAC4-E0A7-3CF0-1BA2-F3155524E298" name="JLS_TKT_CARD_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>0B119AD3-CB34-7198-E604-8B5D180AA487</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FBE1D09-CE7E-1C0A-33E7-42C91F71266E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="923AEF47-36D3-8BB0-7182-8C1A1245B8BD" name="JLS_TKT_CARD_JLS_TKT_PAYMENTS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>CDFA5CD8-F311-4831-9671-79FB3F37734E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FBE1D09-CE7E-1C0A-33E7-42C91F71266E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

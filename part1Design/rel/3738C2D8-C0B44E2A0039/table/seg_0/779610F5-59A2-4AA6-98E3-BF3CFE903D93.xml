@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="779610F5-59A2-4AA6-98E3-BF3CFE903D93" name="JLS_ORDERS">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>4F369196-DDE3-3DEB-28F8-EDE6D3BC3E98</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="2BBA4490-AD4A-E264-F429-ADB6552AF5A7">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique order ID]]></commentInRDBMS>
+<generatorID>8A133FAE-C46A-BABC-1926-8D6458933928</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="2CEA4877-C89E-9837-4162-7EC46D04D4A7">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of the order placed]]></commentInRDBMS>
+<generatorID>131AEC8D-95D2-55ED-EC35-8EFDE029EFE8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_QUANTITY" id="7533BDDC-BE2E-B894-9B9E-9DA03FF40074">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[quantities of the order]]></commentInRDBMS>
+<generatorID>A84884A5-9200-958E-2C1F-962CA70DBA80</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STR_ID" id="A69301CF-D20B-91BA-C185-F7B2A93410A5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>036EBD79-350A-E68D-9977-0A8C50AF034C</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCCB175F-22F6-00FE-56F4-0D7C8E717504" referredColumn="F3040506-2F03-6DBE-B5F3-01C385273D3E"/>
+</associations>
+</Column>
+<Column name="MENUITEM_ID" id="CAEE40B1-505C-5280-A3D7-D9ED6C11389B">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>2EA32304-509D-92DC-2C31-4148A281B229</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E508580-3268-3734-4BB0-7E99A12BCF7B" referredColumn="DA14060C-37BF-BFDE-7910-0A846BDBE699"/>
+</associations>
+</Column>
+<Column name="V_ID" id="94CE28C8-3B10-F17B-B0D4-97FBCF03B04A">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>F53ED001-00D2-65A8-07EA-4FFA89E69CDA</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F02B834F-C031-30EE-C15F-AED10492169D" referredColumn="63AAABEF-B7C9-44CB-26D4-D9ACA768FE94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="684523C4-A5E5-CC37-4CFA-BBA0FB09091C" name="JLS_ORDERS_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>286890CB-1304-40BE-F348-BF7440359F84</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BBA4490-AD4A-E264-F429-ADB6552AF5A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30C5BFA9-612A-05E2-9CCC-FF0EBF54E89C" name="JLS_ORDERS_JLS_STORES_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>8245832E-6A51-299D-5183-A1FF9341653F</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A69301CF-D20B-91BA-C185-F7B2A93410A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FA240AF-3577-4C79-CA21-7EAC3AC76BB8" name="JLS_ORDERS_JLS_STORE_MENU_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>5B6E658D-FBC4-9D83-F6C4-3A775D699883</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAEE40B1-505C-5280-A3D7-D9ED6C11389B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EA149F4-9367-5685-9145-1BC42803F47C" name="JLS_ORDERS_JLS_VISITORS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>712F7B29-D776-2AF0-62AC-BCD62570B406</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94CE28C8-3B10-F17B-B0D4-97FBCF03B04A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

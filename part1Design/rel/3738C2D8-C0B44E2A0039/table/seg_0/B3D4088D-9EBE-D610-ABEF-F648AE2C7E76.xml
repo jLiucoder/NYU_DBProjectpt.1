@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3D4088D-9EBE-D610-ABEF-F648AE2C7E76" name="JLS_SH_INVOICE">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>D90EC50E-84E2-558C-FDDE-D5337A94A865</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SH_INVOI_ID" id="D557AC61-4A52-CB64-E279-588A71DCF052">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Show invoice ID.]]></commentInRDBMS>
+<generatorID>1F9796E9-C467-3E41-5D99-742F4120D446</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SH_INVOI_DATE" id="ABAAACCB-B891-9002-AB84-A3B2A68FFDFF">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Show invoice date. ]]></commentInRDBMS>
+<generatorID>04B1C626-A06A-C6B0-9982-C0BF74A4E2BB</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SH_INVOI_QUANT" id="18A8C05F-ECD8-3EC8-AEA8-08CAB1DD741C">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantity recorded in show invoice. ]]></commentInRDBMS>
+<generatorID>360534AC-80C4-999B-B973-3AB75DA4B7F0</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67AA704D-97E5-9FBA-F646-8CCE280D2C4E" name="JLS_SH_INVOICE_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>5FF0FBAA-4A7F-540C-CECD-87C04584FF02</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D557AC61-4A52-CB64-E279-588A71DCF052"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

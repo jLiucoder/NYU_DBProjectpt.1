@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_MEMBER_VISITORS" directorySegmentName="seg_0" id="0A26A90D-8055-0156-11EF-09B3C8941BF7">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:40:23 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<sourcePk>28F11F96-10FE-0290-FA62-0F40D5B653E4</sourcePk>
+<targetPk>5AF55725-AD0B-D8E5-CDC7-627B7A737F27</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B6FEC90-FFFB-CA9E-78C1-CA33090486EB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F25DA44D-3C83-835B-50BC-68F09E2A53B2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

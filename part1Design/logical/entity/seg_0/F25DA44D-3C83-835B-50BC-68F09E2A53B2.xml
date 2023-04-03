@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F25DA44D-3C83-835B-50BC-68F09E2A53B2" name="JLS_MEMBER">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:38:19 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MEMBER_ID" id="C5264405-C68E-C957-BF2F-DEF7DC855819">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:38:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Member's ID.]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEMBER_STARTDATE" id="224C6F18-39C5-02E6-13C1-5520AFA9894C">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:38:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Membership start date. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEMBER_ENDDATE" id="4C763732-1852-C4F5-E1EE-907ED2D08A3A">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:38:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Membership end date.]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AF55725-AD0B-D8E5-CDC7-627B7A737F27" name="JLS_MEMBER PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-02 02:38:34 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5264405-C68E-C957-BF2F-DEF7DC855819</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

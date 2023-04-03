@@ -43,6 +43,20 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ATT_TYPE" id="3D6B0530-92E1-7F00-00BD-2DFD494490F2">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:10:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attraction type can be roller coaster, water ride, dark ride, kid ride etc. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ATT_DESCRIP" id="E921A243-E589-7737-D7C3-935C490555A8">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-18 20:12:16 UTC</createdTime>
@@ -136,21 +150,6 @@
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
 </engineerTo>
 <referedAttribute>2C867FB9-730F-063C-E8AD-FD502805B59F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATTRTYPE_ID" id="2AF49ACF-5A62-1BC9-A798-A465AF34A8DF">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-31 02:37:24 UTC</createdTime>
-<generatorID>99456F8B-A4CC-FC9C-6CCB-C50B663891DA</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<referedAttribute>8D252551-D2B6-E5AC-FF07-9089F200E5AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

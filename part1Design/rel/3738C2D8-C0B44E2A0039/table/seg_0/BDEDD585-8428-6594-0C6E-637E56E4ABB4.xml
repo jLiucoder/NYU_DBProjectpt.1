@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDEDD585-8428-6594-0C6E-637E56E4ABB4" name="JLS_PARK_CARD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>05753DF7-A2D2-B77E-1653-1133C89630B1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARK_PAY_ID" id="5A86C981-ACCC-AE2C-8861-BD7CD37FB648">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for parking. ]]></commentInRDBMS>
+<generatorID>F60BD06A-CF1D-A00F-12B3-BEA137D73000</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="700AE0EF-033A-DE96-A5A7-97725710D620" referredColumn="7696FF87-626C-48B7-AD52-7ED747AC0BA2"/>
+</associations>
+</Column>
+<Column name="PARK_CARD_FNAME" id="9D4E40AB-6790-1406-97C5-3CBEF11AAB84">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card first name for payment for parking. ]]></commentInRDBMS>
+<generatorID>0A204140-1564-0345-6302-472BFCFC3475</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARK_CARD_LNAME" id="ED0099F1-8431-8922-5B97-2F4CAEEF2732">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card last name for payment for parking.]]></commentInRDBMS>
+<generatorID>3E232C96-D391-2B2D-6849-A7AA3E677DBE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARK_CARD_NUM" id="43670002-FDF2-FF23-B0BA-0B799F38229E">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number for parking ]]></commentInRDBMS>
+<generatorID>2F5DD0A6-71D5-A5FF-056E-E360CCD1A268</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARK_INVOI_ID" id="ACC42133-8868-867B-1F54-EE7F51145017">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>91B96605-A3DC-EA23-8FAC-B9BB65A40983</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="700AE0EF-033A-DE96-A5A7-97725710D620" referredColumn="D25772AC-9B21-C516-9309-C597F2E0700D"/>
+</associations>
+</Column>
+<Column name="PARK_CARD_EXPDATE" id="A4EF563C-1DC8-7C32-0C84-DF2E8E618A1B">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date for parking. ]]></commentInRDBMS>
+<generatorID>580C8437-2A0F-2C2F-16E2-262C68F68C36</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARK_CARD_CVV" id="29F910F0-B180-398F-6C80-A359D10F9661">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number for payment for parking. ]]></commentInRDBMS>
+<generatorID>9C4D4764-CCC8-385D-7A08-DFA6F9B1A71B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARK_CARD_TYPE" id="6AA587E7-D792-B30C-D432-D64E1013BEF0">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type for payment of parking. ]]></commentInRDBMS>
+<generatorID>ACA6962C-3C38-0B05-CEBA-13DE136D3993</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C87DDA66-2E20-B2A6-106D-837528C46BCB" name="JLS_PARK_CARD_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>656C45FC-6C06-722A-B8B0-86F78EB2FEE8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A86C981-ACCC-AE2C-8861-BD7CD37FB648"/>
+<colUsage columnID="ACC42133-8868-867B-1F54-EE7F51145017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86BBB092-5275-2AFC-C4C2-F7ACAFA1CB15" name="JLS_PARK_CARD_JLS_PARK_PAYMENTS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>6E1F0676-9723-13AB-2851-83C6D78AAD3B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A86C981-ACCC-AE2C-8861-BD7CD37FB648"/>
+<colUsage columnID="ACC42133-8868-867B-1F54-EE7F51145017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B91CE1E3-0307-8C00-93BD-953C575C4674" name="JLS_INVOICE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B91CE1E3-0307-8C00-93BD-953C575C4674" name="JLS_TKT_INVOICE">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-29 23:13:33 UTC</createdTime>
 <ownerDesignName>part1Design</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="INVOICE_ID" id="C9321104-ECBD-7C3E-42CB-ECE9AB6983CC">
+<Attribute name="TKT_INVOI_ID" id="C9321104-ECBD-7C3E-42CB-ECE9AB6983CC">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-29 23:14:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[Unique Invoice ID]]></commentInRDBMS>
@@ -29,7 +29,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INVOICE_DATE" id="43F352C7-6550-5D54-D4C8-47C8818012C2">
+<Attribute name="TKT_INVOI_DATE" id="43F352C7-6550-5D54-D4C8-47C8818012C2">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-29 23:15:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Date for the corresponding invoice]]></commentInRDBMS>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AMOUNT" id="67833199-0A68-8FB4-649E-169883077062">
+<Attribute name="TKT_INVOI_QUANT" id="67833199-0A68-8FB4-649E-169883077062">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 16:11:16 UTC</createdTime>
 <commentInRDBMS><![CDATA[Amount for the invoice]]></commentInRDBMS>

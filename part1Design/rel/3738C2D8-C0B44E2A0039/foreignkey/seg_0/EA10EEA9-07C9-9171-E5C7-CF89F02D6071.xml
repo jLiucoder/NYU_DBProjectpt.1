@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA10EEA9-07C9-9171-E5C7-CF89F02D6071" containerWithKeyObject="042F9F88-B330-3B97-9E1F-476DF52434E0" localFKIndex="38F087D9-FF1B-C28D-8E0D-26412740F8CF" name="JLS_SHOWS_JLS_SH_INVOICE_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>54A3B7F1-8AEC-762A-67DC-B987392AFCC7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_SH_INVOICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3D4088D-9EBE-D610-ABEF-F648AE2C7E76</referredTableID>
+<keyObject>67AA704D-97E5-9FBA-F646-8CCE280D2C4E</keyObject>
+<referredKeyID>67AA704D-97E5-9FBA-F646-8CCE280D2C4E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SH_INVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

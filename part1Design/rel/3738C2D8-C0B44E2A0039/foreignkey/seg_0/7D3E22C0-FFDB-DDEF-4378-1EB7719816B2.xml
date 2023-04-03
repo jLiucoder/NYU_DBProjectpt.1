@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7D3E22C0-FFDB-DDEF-4378-1EB7719816B2" containerWithKeyObject="B1324F04-0C3B-1C6F-6354-13D7031FDF20" localFKIndex="6B62DD72-EA76-1CC5-6191-FD8282FA15F9" name="JLS_TICKETS_JLS_TKT_INVOICE_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>999CCCF0-152E-2556-0421-49D4354BCED3</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_TKT_INVOICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04409E49-A03A-670E-3BCB-433B52024CBC</referredTableID>
+<keyObject>BA4039E0-83BB-4DA9-40AD-E82D9CA6B662</keyObject>
+<referredKeyID>BA4039E0-83BB-4DA9-40AD-E82D9CA6B662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TKT_INVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CFFB027-F7CE-579E-F889-10741B13278F" containerWithKeyObject="F35E3B1A-4A21-EAAA-7523-1CC94EC23746" localFKIndex="C0750DFE-7B9A-8D21-80AF-9A743C93B734" name="JLS_ST_CARD_JLS_ST_PAYMENTS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>731E3865-C491-D358-EB93-7D88CBF039C9</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_ST_PAYMENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D71C246-81B7-A484-BC5B-790217271349</referredTableID>
+<keyObject>512895FE-1269-1B39-166B-25682D479504</keyObject>
+<referredKeyID>512895FE-1269-1B39-166B-25682D479504</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ST_PAY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA410F0A-9A19-16E6-AD97-2D17FE08B392" name="JLS_SH_CARD">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:23:07 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3550B8C5-075C-B1FB-9559-EB3EBB04405C</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SH_CARD_FNAME" id="707D667A-EECB-5D86-26B3-24255866CBFF">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:23:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[card first name to pay for shows. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SH_CARD_LNAME" id="BD7938BC-08CC-C81F-C085-DC9526828F4B">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:23:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card lastname to pay for shows. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SH_CARD_NUM" id="81322856-2AD0-5645-1080-D616316F0E32">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:23:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number to pay for shows. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SH_CARD_EXPDATE" id="F24F1778-38B0-63BB-9A5F-687A6C874D05">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:23:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SH_CARD_CVV" id="FCCD4CFA-B53F-D994-522A-F3BEAE0BAFD5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:24:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number to pay for shows. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SH_CARD_TYPE" id="E32CFD68-C024-B1B2-DFE0-7C850170C7F5">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-01 19:24:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type to pay for shows. ]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

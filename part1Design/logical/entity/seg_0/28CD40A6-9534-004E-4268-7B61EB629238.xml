@@ -80,8 +80,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TKT_PRICE" id="87082CFA-1656-E917-DF32-78CB9CD801C7">
 <createdBy>jiayuliu</createdBy>
@@ -124,9 +124,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INVOICE_ID" id="E1FEE66B-CE1D-5C72-CFE9-805841F71165">
+<Attribute name="TKT_INVOI_ID" id="E1FEE66B-CE1D-5C72-CFE9-805841F71165">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-31 16:07:44 UTC</createdTime>
 <generatorID>999CCCF0-152E-2556-0421-49D4354BCED3</generatorID>
@@ -139,7 +139,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

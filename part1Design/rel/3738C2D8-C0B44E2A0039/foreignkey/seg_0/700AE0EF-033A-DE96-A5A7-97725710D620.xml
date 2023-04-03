@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="700AE0EF-033A-DE96-A5A7-97725710D620" containerWithKeyObject="BDEDD585-8428-6594-0C6E-637E56E4ABB4" localFKIndex="86BBB092-5275-2AFC-C4C2-F7ACAFA1CB15" name="JLS_PARK_CARD_JLS_PARK_PAYMENTS_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2023-04-03 03:25:04 UTC</createdTime>
+<generatorID>6E1F0676-9723-13AB-2851-83C6D78AAD3B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_PARK_PAYMENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE87F54A-3FD4-96B2-81A1-A6B9D5341A82</referredTableID>
+<keyObject>3A1B8597-4BFF-62CB-2231-AD8175E494CF</keyObject>
+<referredKeyID>3A1B8597-4BFF-62CB-2231-AD8175E494CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PARK_PAY_ID,INVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
