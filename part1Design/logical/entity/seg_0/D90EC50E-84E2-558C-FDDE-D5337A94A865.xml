@@ -56,6 +56,20 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="SHINVOI_AMOUNT" id="80C27D00-7209-C196-9D31-D1322DACFE1D">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 22:55:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money owed for buying shows tickets]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5FF0FBAA-4A7F-540C-CECD-87C04584FF02" name="JLS_SH_INVOICE PK">

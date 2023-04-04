@@ -56,7 +56,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STPAY_QUANT" id="B94374BD-56AC-5D7F-FCCF-494D08ED4BD7">
+<Attribute name="STPAY_AMOUNT" id="B94374BD-56AC-5D7F-FCCF-494D08ED4BD7">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:30:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[Payment quantity for stores. ]]></commentInRDBMS>

@@ -46,10 +46,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PKPAY_QUANT" id="96FC1AE1-6597-E4B7-47ED-DFD5070EB2FA">
+<Column name="PKPAY_AMOUNT" id="96FC1AE1-6597-E4B7-47ED-DFD5070EB2FA">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-04-04 20:45:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Parking payment quantity. ]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Parking payment amount. ]]></commentInRDBMS>
 <generatorID>3A75EBAE-1AF1-A3B4-D1FD-B416EBB393E5</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

@@ -46,10 +46,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SHPAY_QUANT" id="D97073E7-4CA5-8D80-7727-00692FEEC5AE">
+<Column name="SHPAY_AMOUNT" id="D97073E7-4CA5-8D80-7727-00692FEEC5AE">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-04-04 20:45:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Show payment quantity. ]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Show payment amount. ]]></commentInRDBMS>
 <generatorID>6E2931F6-906D-2008-3F55-E8DF4917F524</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

@@ -33,10 +33,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STINVOI_QUANT" id="39AD965E-6DEF-D6C5-CEA0-8E449ED22194">
+<Column name="STINVOI_AMOUNT" id="39AD965E-6DEF-D6C5-CEA0-8E449ED22194">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-04-04 20:45:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Invoice quant for stores. ]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[amount of money owed for stores]]></commentInRDBMS>
 <generatorID>BDC89A2D-2B5A-271A-471E-0A5451423226</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

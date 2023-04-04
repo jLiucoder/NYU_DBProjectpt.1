@@ -56,7 +56,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PKPAY_QUANT" id="3A75EBAE-1AF1-A3B4-D1FD-B416EBB393E5">
+<Attribute name="PKPAY_AMOUNT" id="3A75EBAE-1AF1-A3B4-D1FD-B416EBB393E5">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:35:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[Parking payment quantity. ]]></commentInRDBMS>

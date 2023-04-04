@@ -46,6 +46,18 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PKINVOI_AMOUNT" id="EF53F0D7-8AAF-F831-13D9-6300A19F846E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 23:02:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money owed for parking]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="889B16B3-469F-798C-78C5-AA28F37F691C" name="JLS_PKINVOI_PK">

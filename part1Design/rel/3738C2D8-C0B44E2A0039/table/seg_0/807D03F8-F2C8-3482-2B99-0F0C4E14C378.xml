@@ -46,6 +46,18 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="SHINVOI_AMOUNT" id="3ECA1A5A-A708-76D7-EC39-79723E3451A7">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 23:00:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[money owed for going into shows]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8D75113B-2562-2195-F20B-0934DB0C5DB9" name="JLS_SHINVOI_PK">

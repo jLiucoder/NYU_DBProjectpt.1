@@ -56,6 +56,20 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PKINVOI_AMOUNT" id="B277413A-98E6-E605-E952-C0ECC665D5DD">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 22:57:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money owed for parking]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="65CBC2D3-74B2-82C9-6643-1D106A15E771" name="JLS_PARK_INVOICE PK">

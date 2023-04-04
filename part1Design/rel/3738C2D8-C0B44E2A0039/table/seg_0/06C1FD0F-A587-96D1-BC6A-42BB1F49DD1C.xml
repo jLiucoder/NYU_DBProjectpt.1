@@ -47,6 +47,18 @@
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TKINVOI_AMOUNT" id="EFEFD10D-9A51-B3C5-D981-46901A11A60E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 22:59:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money owed for buying tickets]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="39731531-4ADE-1563-6E22-8D7827C5F01F" name="JLS_TKTINVOI_PK">

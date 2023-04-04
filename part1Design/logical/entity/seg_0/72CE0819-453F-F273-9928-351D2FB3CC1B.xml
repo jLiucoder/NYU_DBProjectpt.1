@@ -58,7 +58,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TKPAY_QUANT" id="6D53A7A4-8255-4840-5362-00BCE448622A">
+<Attribute name="TKPAY_AMOUNT" id="6D53A7A4-8255-4840-5362-00BCE448622A">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:31:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[Payment amount of the current payment]]></commentInRDBMS>
@@ -69,9 +69,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TKINVOI_ID" id="6DB01E0F-0CD6-3291-D846-A3F4DA2C6AE2">
 <createdBy>jiayuliu</createdBy>

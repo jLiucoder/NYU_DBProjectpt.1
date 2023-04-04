@@ -56,10 +56,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SHPAY_QUANT" id="6E2931F6-906D-2008-3F55-E8DF4917F524">
+<Attribute name="SHPAY_AMOUNT" id="6E2931F6-906D-2008-3F55-E8DF4917F524">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-01 19:22:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[Show payment quantity. ]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Show payment amount]]></commentInRDBMS>
 <ownerDesignName>part1Design</ownerDesignName>
 <engineerTo>
 <item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

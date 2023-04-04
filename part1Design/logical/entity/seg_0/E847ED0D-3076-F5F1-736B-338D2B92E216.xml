@@ -56,6 +56,18 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="STINVOI_AMOUNT" id="D20EAF6C-92DF-627C-484D-95DA928628A3">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 22:56:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amount of money owed for buying in store]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="IT_ID" id="42F09CD6-417A-8BE4-79B0-3F4469D31F2C">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-04-04 20:37:09 UTC</createdTime>

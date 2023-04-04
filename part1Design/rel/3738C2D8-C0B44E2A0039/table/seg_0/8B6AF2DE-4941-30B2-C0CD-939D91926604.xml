@@ -46,10 +46,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STPAY_QUANT" id="E3D04428-6831-59B0-9EC3-AED35AEE5873">
+<Column name="STPAY_AMOUNT" id="E3D04428-6831-59B0-9EC3-AED35AEE5873">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-04-04 20:45:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Payment quantity for stores. ]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Payment amount for stores. ]]></commentInRDBMS>
 <generatorID>B94374BD-56AC-5D7F-FCCF-494D08ED4BD7</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
