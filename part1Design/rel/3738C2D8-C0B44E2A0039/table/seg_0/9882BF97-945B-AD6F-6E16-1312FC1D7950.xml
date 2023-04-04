@@ -58,19 +58,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TK_TYPE" id="C4D8DB5B-C684-2E38-D991-62A98705F844">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 21:07:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[Ticket type, Child,Adult,Senior,or Member]]></commentInRDBMS>
-<generatorID>2D615275-0159-9BDB-7AA4-1758A2D65750</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="TK_PRICE" id="91C0182D-CF46-1809-B26A-353377CA5A5C">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>

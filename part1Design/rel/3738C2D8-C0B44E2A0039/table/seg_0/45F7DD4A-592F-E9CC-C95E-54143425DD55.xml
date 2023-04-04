@@ -137,19 +137,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="V_TYPE" id="F3B56D73-274F-BB7B-142F-F4B09FEB4D96">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 21:07:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[Visitor type,INDI, GROUP, MEMBER,STUDENT]]></commentInRDBMS>
-<generatorID>2A9B5865-B973-5F31-996A-2B3A8C957DEE</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="V_VDATE" id="81024FAD-7A1E-D638-3271-6F4141A74D31">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>
@@ -172,7 +159,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

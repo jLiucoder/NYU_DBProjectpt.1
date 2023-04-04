@@ -29,6 +29,7 @@
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>
 <generatorID>B07EFF84-832E-EBA3-5A53-B8E337F3BB2B</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -39,6 +40,18 @@
 <associations>
 <colAssociation fkAssociation="FC3DFBF2-C75F-75BD-E971-C587D692FC18" referredColumn="4CAD9132-503B-4ECD-F94C-2A71DB793A60"/>
 </associations>
+</Column>
+<Column name="MEM_INDEX" id="E21DBF65-D437-0150-2A75-8AF50B9C4BD6">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 01:15:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indetifying index for members in the group]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -51,7 +64,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AF81F1DF-8455-11BF-D14E-81100F9156DC"/>
-<colUsage columnID="1AED9B12-67E6-F348-3C1A-650FC3D05F84"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="13528104-D6B7-4C9C-4184-0937CA297C00" name="JLS_GPV_JLS_GROUPS_FK">

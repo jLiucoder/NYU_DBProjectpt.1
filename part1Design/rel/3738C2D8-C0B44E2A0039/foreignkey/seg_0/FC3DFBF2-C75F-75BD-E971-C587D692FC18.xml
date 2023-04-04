@@ -9,7 +9,7 @@
 <referredTableID>45F7DD4A-592F-E9CC-C95E-54143425DD55</referredTableID>
 <keyObject>032A0B8E-1173-6292-52F5-A6AF4DAB3AD7</keyObject>
 <referredKeyID>032A0B8E-1173-6292-52F5-A6AF4DAB3AD7</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>V_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

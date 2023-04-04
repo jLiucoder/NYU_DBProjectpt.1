@@ -69,20 +69,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TK_TYPE" id="2D615275-0159-9BDB-7AA4-1758A2D65750">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-19 00:37:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[Ticket type, Child,Adult,Senior,or Member]]></commentInRDBMS>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="TK_PRICE" id="87082CFA-1656-E917-DF32-78CB9CD801C7">
 <createdBy>jiayuliu</createdBy>
 <createdTime>2023-03-19 00:38:49 UTC</createdTime>
@@ -124,7 +110,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TKINVOI_ID" id="E1FEE66B-CE1D-5C72-CFE9-805841F71165">
 <createdBy>jiayuliu</createdBy>
@@ -139,7 +125,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
