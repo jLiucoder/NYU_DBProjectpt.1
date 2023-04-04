@@ -167,11 +167,12 @@
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>
 <generatorID>DBABD151-D093-25B9-447A-7386B6A8A775</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

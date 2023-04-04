@@ -108,15 +108,6 @@
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="01244680-2E91-6AE0-2C3F-EAA61EDBB722" otype="Relation" vid_source="A160914D-7B16-D994-A541-3F5560B5AF3F" vid_target="697F7568-AF2D-2FF0-CEB8-5EC92FD685CC">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1521" y="88"/>
-<point x="1521" y="140"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="04DC570F-4ACA-6834-46E1-710165A18784" otype="Relation" vid_source="DBB1FD77-0C87-DB12-6544-ADA7ED60553E" vid_target="665B8C4A-44FC-76A6-9906-B9198956C239">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>

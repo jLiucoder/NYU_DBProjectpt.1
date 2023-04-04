@@ -55,6 +55,22 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="V_ID" id="6BE63AE0-C473-74ED-B05E-D975B2643EFF">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 00:06:04 UTC</createdTime>
+<generatorID>0A26A90D-8055-0156-11EF-09B3C8941BF7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<engineerTo>
+<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5AF55725-AD0B-D8E5-CDC7-627B7A737F27" name="JLS_MEMBER PK">

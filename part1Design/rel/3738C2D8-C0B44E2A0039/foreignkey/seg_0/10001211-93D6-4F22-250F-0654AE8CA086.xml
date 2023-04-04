@@ -9,7 +9,7 @@
 <referredTableID>985FBDC3-B704-A444-A218-0EB8967EEB95</referredTableID>
 <keyObject>BFF1BB5F-EB82-20C9-EBEE-3480D5762024</keyObject>
 <referredKeyID>BFF1BB5F-EB82-20C9-EBEE-3480D5762024</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>M_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

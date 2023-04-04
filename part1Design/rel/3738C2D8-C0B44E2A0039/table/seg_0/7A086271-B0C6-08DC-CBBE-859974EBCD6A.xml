@@ -48,22 +48,6 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="M_ID" id="10B35B93-CCA7-01D8-DFAD-123D8CE1F8FD">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 21:07:09 UTC</createdTime>
-<generatorID>DC53C74B-90D5-412D-E2ED-BD8B42330AE9</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BB863546-D010-7C15-CB33-F422874BA989" referredColumn="D8D56030-5E0C-10AA-5BF8-85A60EE6DF8A"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7238D3A6-9FA4-7ECD-5C2D-A04076BE9DAF" name="JLS_GROUPS_PK">
@@ -76,17 +60,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BAFC7AD6-DEAF-2D16-577C-19CC7CBDC0B5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="716829DC-B925-883E-964D-EAFC8B4C94B8" name="JLS_GROUPS_JLS_MEMBER_FK">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 21:07:09 UTC</createdTime>
-<generatorID>01244680-2E91-6AE0-2C3F-EAA61EDBB722</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="10B35B93-CCA7-01D8-DFAD-123D8CE1F8FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

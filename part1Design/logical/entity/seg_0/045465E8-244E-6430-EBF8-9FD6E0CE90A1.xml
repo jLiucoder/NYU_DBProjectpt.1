@@ -58,21 +58,6 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="M_ID" id="DC53C74B-90D5-412D-E2ED-BD8B42330AE9">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 19:53:41 UTC</createdTime>
-<generatorID>01244680-2E91-6AE0-2C3F-EAA61EDBB722</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<referedAttribute>C5264405-C68E-C957-BF2F-DEF7DC855819</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1415E4D1-3F9F-9E98-2792-2A124A98E0A8" name="GROUPS PK">
