@@ -29,7 +29,6 @@
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>
 <generatorID>B07EFF84-832E-EBA3-5A53-B8E337F3BB2B</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -63,6 +62,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
+<colUsage columnID="1AED9B12-67E6-F348-3C1A-650FC3D05F84"/>
 <colUsage columnID="AF81F1DF-8455-11BF-D14E-81100F9156DC"/>
 </indexColumnUsage>
 </ind_PK_UK>

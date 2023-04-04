@@ -154,19 +154,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="V_VDATE" id="0CBA5CF1-A7FF-962B-30C1-4A38809C6E9E">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 19:59:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Visiting date for the visitor]]></commentInRDBMS>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="M_ID" id="DBABD151-D093-25B9-447A-7386B6A8A775">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-02 02:40:26 UTC</createdTime>

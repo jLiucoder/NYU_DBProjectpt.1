@@ -137,18 +137,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="V_VDATE" id="81024FAD-7A1E-D638-3271-6F4141A74D31">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-03 21:07:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[Visiting date for the visitor]]></commentInRDBMS>
-<generatorID>0CBA5CF1-A7FF-962B-30C1-4A38809C6E9E</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="M_ID" id="A1A3FC4A-B3A7-3D3D-4098-6B95631842B9">
 <createdBy>Dell</createdBy>
 <createdTime>2023-04-03 21:07:09 UTC</createdTime>
