@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B27B34B-C7A2-51AB-DF9F-778DF3588AB6" name="JLS_MEMBER">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>F25DA44D-3C83-835B-50BC-68F09E2A53B2</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="M_ID" id="73F82D2A-4A7D-E83A-7BC9-DC81EE75C24E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Member's ID.]]></commentInRDBMS>
+<generatorID>C5264405-C68E-C957-BF2F-DEF7DC855819</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_SDATE" id="A1B5788B-475F-5135-8EC3-7E2A7DCC918E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Membership start date. ]]></commentInRDBMS>
+<generatorID>224C6F18-39C5-02E6-13C1-5520AFA9894C</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_EDATE" id="B76531AC-C00D-54C1-3EB0-CEB95133D881">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Membership end date.]]></commentInRDBMS>
+<generatorID>4C763732-1852-C4F5-E1EE-907ED2D08A3A</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF1BFA1F-F668-D9F6-E256-D34D3EF66CBA" name="JLS_MEMBER_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>5AF55725-AD0B-D8E5-CDC7-627B7A737F27</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F82D2A-4A7D-E83A-7BC9-DC81EE75C24E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

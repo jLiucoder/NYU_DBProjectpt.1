@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C51C4FD-44BA-D28A-6D7E-7B2D42196837" name="JLS_PKPAY">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>8DD6A783-4C62-60F6-58E5-36D0A7560760</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PKPAY_ID" id="47D64EE9-EC96-9FC8-EAB9-603EAF1B6550">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for parking. ]]></commentInRDBMS>
+<generatorID>F60BD06A-CF1D-A00F-12B3-BEA137D73000</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKPAY_METHOD" id="9493BEFA-6701-1452-BD3C-58DD7A661C3E">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking payment method. ]]></commentInRDBMS>
+<generatorID>5E0D7AD5-E5CA-C3C7-502A-CD6CA408E3B8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKPAY_DATE" id="069D8BB2-51D2-198B-5381-74021C48EDCE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking payment date. ]]></commentInRDBMS>
+<generatorID>E8D42041-5835-164D-166E-7E979265A700</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKPAY_QUANT" id="96FC1AE1-6597-E4B7-47ED-DFD5070EB2FA">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking payment quantity. ]]></commentInRDBMS>
+<generatorID>3A75EBAE-1AF1-A3B4-D1FD-B416EBB393E5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKINVOI_ID" id="3C37EF52-274E-5B71-C1FF-E5044C6B3EE7">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>91B96605-A3DC-EA23-8FAC-B9BB65A40983</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D0C40CD-8F35-D72B-A153-1A7874AE5619" referredColumn="7184B8C8-1F10-A0F9-4D9E-AF8CFB07DE7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFD9DD29-4AEC-D939-F782-543B8E17FB28" name="JLS_PKPAY_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>656C45FC-6C06-722A-B8B0-86F78EB2FEE8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47D64EE9-EC96-9FC8-EAB9-603EAF1B6550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBF3C7B2-2BF3-EDAB-59FE-EB15F51561FA" name="JLS_PKPAY_JLS_PKINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>E5C87A14-37C9-BBB9-06D4-243A46E519CD</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C37EF52-274E-5B71-C1FF-E5044C6B3EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

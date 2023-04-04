@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3328DC88-3473-0326-3CAF-BA24AFD64B3F" containerWithKeyObject="4AFBDEBF-9112-6A4E-CCD7-4BA2302ADD30" localFKIndex="19DE5AE7-3129-7D2E-165A-0AFE176A8196" name="JLS_TKCARD_JLS_TKPAY_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>CDFA5CD8-F311-4831-9671-79FB3F37734E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_TKPAY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>459EF3BB-364A-2CC7-2626-85D46FF5DE7B</referredTableID>
+<keyObject>1AD3475F-E7FF-60C0-0118-7384A39AC392</keyObject>
+<referredKeyID>1AD3475F-E7FF-60C0-0118-7384A39AC392</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TKPAY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>7BD094D0-934A-061C-9A8C-DEF118640142</discriminatorColumn>
+<discriminatorValue>JLS_TKCARD</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

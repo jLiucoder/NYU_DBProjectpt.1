@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D0C40CD-8F35-D72B-A153-1A7874AE5619" containerWithKeyObject="4C51C4FD-44BA-D28A-6D7E-7B2D42196837" localFKIndex="DBF3C7B2-2BF3-EDAB-59FE-EB15F51561FA" name="JLS_PKPAY_JLS_PKINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>E5C87A14-37C9-BBB9-06D4-243A46E519CD</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_PKINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0BCBA766-116F-2509-CDC3-B60C65EE67AC</referredTableID>
+<keyObject>889B16B3-469F-798C-78C5-AA28F37F691C</keyObject>
+<referredKeyID>889B16B3-469F-798C-78C5-AA28F37F691C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PKINVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

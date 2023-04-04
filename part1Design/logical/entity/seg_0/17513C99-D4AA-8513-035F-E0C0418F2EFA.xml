@@ -126,36 +126,6 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="V_ID" id="50F8AC4F-9578-CA39-0FBC-318893F9DF31">
-<createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-31 02:19:19 UTC</createdTime>
-<generatorID>D93492E7-724D-A39E-3CF8-67056466E84D</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<referedAttribute>2EB13D4C-2FD1-C236-D735-D178DB966156</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SHINVOI_ID" id="FA6477F9-4447-0F35-9EC5-C94887670BE4">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-01 19:20:10 UTC</createdTime>
-<generatorID>54A3B7F1-8AEC-762A-67DC-B987392AFCC7</generatorID>
-<ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<referedAttribute>1F9796E9-C467-3E41-5D99-742F4120D446</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4DAC938B-CA7E-17C4-E4B2-157B37C70100" name="SHOWS PK">
@@ -168,7 +138,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CB5D2F1E-2215-E1B2-62F0-6517F506F13A</attributeRef>
-<attributeRef>FA6477F9-4447-0F35-9EC5-C94887670BE4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

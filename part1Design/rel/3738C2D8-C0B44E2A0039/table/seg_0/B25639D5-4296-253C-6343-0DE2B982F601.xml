@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B25639D5-4296-253C-6343-0DE2B982F601" name="JLS_TKAT">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>09415EA7-26E7-C8E8-4324-CF320D10C350</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TK_ID" id="A734FD91-3576-D0C3-9B67-5DDEDA849F1F">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>9FDFCAC7-CB94-5F28-CADF-73751526B7BE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69E5AE77-A664-69A8-F9D6-D30AED2BAED5" referredColumn="2774670B-6BA6-2E00-7232-FE9B5EB14E6E"/>
+</associations>
+</Column>
+<Column name="ATT_ID" id="68A955C4-8BA7-0BD4-01A9-039F7C9F2589">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>14D8050F-15DE-D874-BB43-BE05B8BC3643</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE841DE9-2FF5-4F32-B95D-CC883ACE269D" referredColumn="CF7D3AD4-C6F9-182C-BB07-605F032DD316"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1D2265C-8BDF-6E68-BB25-625BC1BAE4DC" name="JLS_TKAT_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:58:12 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68A955C4-8BA7-0BD4-01A9-039F7C9F2589"/>
+<colUsage columnID="A734FD91-3576-D0C3-9B67-5DDEDA849F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="678CC19C-06F9-0BE8-4911-086984757AED" name="JLS_TKAT_JLS_TICKETS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>41882157-18CA-C645-690B-958B674347D7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A734FD91-3576-D0C3-9B67-5DDEDA849F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF3F68B4-42D0-8D9F-B293-32972830CA8E" name="JLS_TKAT_JLS_ATTRACTIONS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>9AE42AB6-2DD1-8996-97E7-CC6CE83F13BE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68A955C4-8BA7-0BD4-01A9-039F7C9F2589"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,159 +1,143 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="802097E5-FD95-F855-884A-4129D91DEDB1" name="JLS_ATTRACTIONS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A672CF5E-3AD7-198D-4B5F-74B41C16D8C8" name="JLS_ATTRACTIONS">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:03:52 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>802097E5-FD95-F855-884A-4129D91DEDB1</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ATT_ID" id="55367CF0-2B60-5FF9-342F-F13B0B45CE10">
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATT_ID" id="CF7D3AD4-C6F9-182C-BB07-605F032DD316">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:07:48 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Unique Attration ID]]></commentInRDBMS>
+<generatorID>55367CF0-2B60-5FF9-342F-F13B0B45CE10</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_NAME" id="A7933E91-DD87-2785-EB2A-0CEE51CA6425">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_NAME" id="BB4B9B96-2397-2831-40EB-DCBBB2B3F3BE">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:11:33 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[name of the attraction]]></commentInRDBMS>
+<generatorID>A7933E91-DD87-2785-EB2A-0CEE51CA6425</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_TYPE" id="3D6B0530-92E1-7F00-00BD-2DFD494490F2">
-<createdBy>Dell</createdBy>
-<createdTime>2023-04-01 19:10:14 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_TYPE" id="DC208338-9617-D71F-B809-340ACFB6A2BC">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Attraction type can be roller coaster, water ride, dark ride, kid ride etc. ]]></commentInRDBMS>
+<generatorID>3D6B0530-92E1-7F00-00BD-2DFD494490F2</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_DESCRIP" id="E921A243-E589-7737-D7C3-935C490555A8">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_DESCRIP" id="5946FF1D-9D4A-A83E-291F-8B1204B1AE46">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:12:16 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Attraction descriptions]]></commentInRDBMS>
+<generatorID>E921A243-E589-7737-D7C3-935C490555A8</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_CAPACITY" id="24BFB792-C7D6-651B-B767-8BECC22F1F79">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_CAPACITY" id="74AF38BC-EE32-5C4E-BE52-05DE59813CC7">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:13:25 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Attraction capacity]]></commentInRDBMS>
+<generatorID>24BFB792-C7D6-651B-B767-8BECC22F1F79</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_MINHEI" id="3DCDBE6D-4637-4850-E9F1-CB4C1B207C17">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_MINHEI" id="171ABE87-D6E9-635F-5912-C75865F1E0F8">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:14:04 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Minimum height requirement for the attraction in Centimeters. ]]></commentInRDBMS>
+<generatorID>3DCDBE6D-4637-4850-E9F1-CB4C1B207C17</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_DURATION" id="F48B48A3-D20A-0311-2E03-BD3B31DFB1B5">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_DURATION" id="A81155CA-631D-E07F-40E8-398A616C940B">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:17:05 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Attraction duration, unit in MIN]]></commentInRDBMS>
+<generatorID>F48B48A3-D20A-0311-2E03-BD3B31DFB1B5</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_LOCSEC" id="5D95A087-D46D-060E-9799-0E5017BE21EE">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_LOCSEC" id="B141A9D0-07C9-EA26-AF08-5F240FC0B499">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:18:06 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Location section for the attraction]]></commentInRDBMS>
+<generatorID>5D95A087-D46D-060E-9799-0E5017BE21EE</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATT_STATUS" id="4F163AEE-FE3B-0EE5-6F03-0161B6EBB370">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_STATUS" id="2BC2A610-612B-8C4D-1A1E-E417138CA600">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-31 03:01:44 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[status can be closed, open, under mantainence]]></commentInRDBMS>
+<generatorID>4F163AEE-FE3B-0EE5-6F03-0161B6EBB370</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D5321886-EC13-DBFC-80CE-DA1C4D7BE034" name="ATTRACTIONS PK">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1169548C-69DC-11C6-6FCA-A899BF89FCBB" name="JLS_ATTRACTIONS_PK">
 <createdBy>jiayuliu</createdBy>
-<createdTime>2023-03-18 20:35:09 UTC</createdTime>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>D5321886-EC13-DBFC-80CE-DA1C4D7BE034</generatorID>
 <ownerDesignName>part1Design</ownerDesignName>
-<engineerTo>
-<item key="3738C2D8-102D-5DF9-421D-C0B44E2A0039" value="true"/>
-</engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>55367CF0-2B60-5FF9-342F-F13B0B45CE10</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7D3AD4-C6F9-182C-BB07-605F032DD316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

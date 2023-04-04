@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0182137F-DF00-1957-C6F3-38AB3F1E84E0" name="JLS_PKCARD">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>05753DF7-A2D2-B77E-1653-1133C89630B1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PKPAY_ID" id="B7DD0B2B-055E-20B0-E5CE-586A1FF291FB">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for parking. ]]></commentInRDBMS>
+<generatorID>F60BD06A-CF1D-A00F-12B3-BEA137D73000</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF1FD67D-743F-A9B8-8EF4-54E5007B1A1F" referredColumn="47D64EE9-EC96-9FC8-EAB9-603EAF1B6550"/>
+</associations>
+</Column>
+<Column name="PKCRD_FNAME" id="3B1570B1-A77D-E557-8FF1-7E7A837DBFB6">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card first name for payment for parking. ]]></commentInRDBMS>
+<generatorID>0A204140-1564-0345-6302-472BFCFC3475</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_LNAME" id="9F718988-AB9B-A688-7DB4-97D854A1F52C">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card last name for payment for parking.]]></commentInRDBMS>
+<generatorID>3E232C96-D391-2B2D-6849-A7AA3E677DBE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_NUM" id="440C9391-77EE-6076-8553-D26A0AF9C108">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number for parking ]]></commentInRDBMS>
+<generatorID>2F5DD0A6-71D5-A5FF-056E-E360CCD1A268</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_EDATE" id="2BFABE47-E7F8-F68D-1A70-6A99254BCF6A">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date for parking. ]]></commentInRDBMS>
+<generatorID>580C8437-2A0F-2C2F-16E2-262C68F68C36</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_CVV" id="BD04FA95-FDBB-B90F-4795-1B5D8BC2BB63">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number for payment for parking. ]]></commentInRDBMS>
+<generatorID>9C4D4764-CCC8-385D-7A08-DFA6F9B1A71B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PKCRD_TYPE" id="98C623AC-382C-7F74-DA6B-730397EA91F4">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type for payment of parking. ]]></commentInRDBMS>
+<generatorID>ACA6962C-3C38-0B05-CEBA-13DE136D3993</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7EA6E60-9BD5-D513-0F4E-64C4E8343FED" name="JLS_PKCARD_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>656C45FC-6C06-722A-B8B0-86F78EB2FEE8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7DD0B2B-055E-20B0-E5CE-586A1FF291FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4049F88-D683-C236-732E-D2C9CEA0151D" name="JLS_PKCARD_JLS_PKPAY_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>6E1F0676-9723-13AB-2851-83C6D78AAD3B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7DD0B2B-055E-20B0-E5CE-586A1FF291FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

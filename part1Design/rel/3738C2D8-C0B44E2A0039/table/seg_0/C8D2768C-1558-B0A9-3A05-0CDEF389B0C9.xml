@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8D2768C-1558-B0A9-3A05-0CDEF389B0C9" name="JLS_STCARD">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>BC084571-BCFD-5EC0-ABE5-86818A6BECC0</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STPAY_ID" id="54C2D9B0-7CB2-CE19-4A2A-A7CC240EE8EB">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment ID for stores. ]]></commentInRDBMS>
+<generatorID>2B61249C-161E-19DE-54D6-96C405449FBE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FCC6950-B598-C09F-DD9F-A8E7686C038B" referredColumn="81A0D041-CCCF-EC65-CB1E-CE36DA623D37"/>
+</associations>
+</Column>
+<Column name="STCRD_FNAME" id="1F0089D2-B0BD-5AAA-FB5D-3E2D091B948B">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card first name for stores. ]]></commentInRDBMS>
+<generatorID>D619220E-51E3-07AC-AF22-5F0E31B852FF</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STCRD_LNAME" id="9D6E57C6-738C-EF57-CA28-FBF29C017D53">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card last name for payment for stores. ]]></commentInRDBMS>
+<generatorID>EED889FD-2B89-E26C-025C-0F2637F1AEBA</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STCRD_NUM" id="F26505DE-6A4C-4043-49E2-FFB2225476DC">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card number for stores. ]]></commentInRDBMS>
+<generatorID>0550CBD4-035F-3C12-D7EB-DB95AC950C53</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STCRD_EDATE" id="F8BF253E-53D7-FBAA-A18B-346D37D1B7AF">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card expiration date for stores. ]]></commentInRDBMS>
+<generatorID>C4E4CF9A-3396-CCFB-DBEA-2B4DA613D541</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STCRD_CVV" id="A8DF024D-9C16-88F5-03A2-73C56F2FCC32">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card CVV number for payment for stores. ]]></commentInRDBMS>
+<generatorID>D9CE288E-C8BD-F2A4-10F0-F434F40428A4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STCRD_TYPE" id="B23A984D-93B7-FA0D-7E33-1B5B1FCB1A45">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Card type for payment of stores. ]]></commentInRDBMS>
+<generatorID>5B2BED8D-FEFF-B590-CB05-BC0BA9D892FC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DADD39D0-6569-5CE4-A040-7A636E098DAD" name="JLS_STCARD_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>EED324A1-C34B-1119-AB8A-0D2BA4BEB8CC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C2D9B0-7CB2-CE19-4A2A-A7CC240EE8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0A7F65E-09FF-7FFC-0D38-406A97B35BBE" name="JLS_STCARD_JLS_STPAY_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>731E3865-C491-D358-EB93-7D88CBF039C9</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C2D9B0-7CB2-CE19-4A2A-A7CC240EE8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

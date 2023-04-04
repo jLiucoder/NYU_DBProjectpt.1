@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="101E0E93-3B60-0887-C88E-CFE44B9B38AC" name="JLS_VISITORS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>6B6FEC90-FFFB-CA9E-78C1-CA33090486EB</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="V_ID" id="3C7413C9-0993-B7FD-32B3-9E9887CAF7B1">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique Visitor ID]]></commentInRDBMS>
+<generatorID>2EB13D4C-2FD1-C236-D735-D178DB966156</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_FNAME" id="716433F0-9B52-88F8-478A-2FD3B70EA6BA">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's firstname]]></commentInRDBMS>
+<generatorID>81F5236E-DF71-AA7B-B4D8-FFA490B6CD81</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_LNAME" id="022E5663-E76E-DA7F-BCE4-5C603DCB82D0">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's lastname]]></commentInRDBMS>
+<generatorID>52EC3EBA-2BE3-A00C-11A8-D65CFE6502D4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_STATE" id="5BB7A938-61C1-9F7B-0E33-270869F95CF0">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's state address]]></commentInRDBMS>
+<generatorID>D74FF9BE-C9BC-01AC-6FCD-31C51EEFA94C</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_CITY" id="76FD0844-1E97-82F5-3168-4C3B3AB89032">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's city address]]></commentInRDBMS>
+<generatorID>7FE3E447-00CB-5758-9340-A55D9BF8B969</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_STADDR" id="C86D6009-5BF0-8480-FA8E-BAEDD52396F5">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's street address]]></commentInRDBMS>
+<generatorID>A8E3A08B-5515-FE2B-2B6F-B0FD6308B730</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ZIP" id="9A93A98C-F86F-8BB2-E9A8-3DCC009222FA">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's zipcode. ]]></commentInRDBMS>
+<generatorID>26E23429-B913-7F33-D815-50A1817C54A4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_EMAIL" id="41779F36-03A2-6552-E37E-7A2BFAE6B868">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's Email]]></commentInRDBMS>
+<generatorID>BD176CCA-C938-6B43-E826-5A6F9EB97184</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_PHONE" id="0E4C6211-191C-633F-A2E5-56BCE5987AB0">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Visitor's phone number]]></commentInRDBMS>
+<generatorID>455EEAF9-821F-9622-84BC-D2260305BF90</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_DOB" id="7AB12771-69F6-57B5-E9C6-530A16BD29E4">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[date of birth of the visitor]]></commentInRDBMS>
+<generatorID>A24D75AD-A93C-35B9-3F7D-176F4EA11B6D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_ID" id="D2DDCD36-5BF7-817E-8A8B-931CA9FE2DC5">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>DBABD151-D093-25B9-447A-7386B6A8A775</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="596E25F8-F68C-FBB8-D36A-8ADD31DF91BF" referredColumn="73F82D2A-4A7D-E83A-7BC9-DC81EE75C24E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="112A20C3-A72C-305F-6636-E86DDC0F2EB6" name="JLS_VISITORS_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>28F11F96-10FE-0290-FA62-0F40D5B653E4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C7413C9-0993-B7FD-32B3-9E9887CAF7B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B87B8E7-1C30-8289-C0CE-3576BAF793B6" name="JLS_VISITORS_JLS_MEMBER_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>0A26A90D-8055-0156-11EF-09B3C8941BF7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2DDCD36-5BF7-817E-8A8B-931CA9FE2DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

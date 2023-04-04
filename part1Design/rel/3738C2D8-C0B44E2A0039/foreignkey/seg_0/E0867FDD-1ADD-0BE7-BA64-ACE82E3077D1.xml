@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0867FDD-1ADD-0BE7-BA64-ACE82E3077D1" containerWithKeyObject="22F40939-4400-2E6F-2B69-671F3C99F349" localFKIndex="8D025391-503C-E077-EAD9-68B34220B879" name="JLS_SHPAY_JLS_SHINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>EC08C099-32C3-B83E-379E-B14B784D6851</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_SHINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>807D03F8-F2C8-3482-2B99-0F0C4E14C378</referredTableID>
+<keyObject>8D75113B-2562-2195-F20B-0934DB0C5DB9</keyObject>
+<referredKeyID>8D75113B-2562-2195-F20B-0934DB0C5DB9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SHINVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

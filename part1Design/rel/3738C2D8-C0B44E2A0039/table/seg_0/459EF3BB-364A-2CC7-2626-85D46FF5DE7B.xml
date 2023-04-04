@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="459EF3BB-364A-2CC7-2626-85D46FF5DE7B" name="JLS_TKPAY">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>72CE0819-453F-F273-9928-351D2FB3CC1B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TKPAY_ID" id="C3381982-CABF-D0FF-926C-7865B1D2FE07">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique payment ID for the payment]]></commentInRDBMS>
+<generatorID>F74D2835-FC44-70FE-2BEA-4A4CB122E8D7</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKPAY_METHOD" id="7BD094D0-934A-061C-9A8C-DEF118640142">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment method,CASH,CREDIT,DEBIT]]></commentInRDBMS>
+<generatorID>444ECE4B-B03A-ED96-76DA-FC076EC3F210</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<constraintName>CH_INH_JLS_TKPAY</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="JLS_TKCARD" description="entity JLS_TKCARD"/>
+<valueDef value="JLS_TKPAY" description="entity JLS_TKPAY"/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="TKPAY_DATE" id="82A0C417-F842-1075-FF1A-AD0DC50C02C7">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment date of the current payment]]></commentInRDBMS>
+<generatorID>37D21A62-4123-176F-FF49-D6D8C8FEC0CC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKPAY_QUANT" id="83CA2E8F-BEF5-FD1A-790D-6162BB8F1090">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment amount of the current payment]]></commentInRDBMS>
+<generatorID>6D53A7A4-8255-4840-5362-00BCE448622A</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKINVOI_ID" id="C91793AF-BDDA-64F7-5824-D9E956FBE32F">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>6DB01E0F-0CD6-3291-D846-A3F4DA2C6AE2</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44D036C8-8619-74C9-E6FD-F3602535CCC7" referredColumn="21A649EF-B414-26CB-044D-72CC23096C91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AD3475F-E7FF-60C0-0118-7384A39AC392" name="JLS_TKPAY_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>0B119AD3-CB34-7198-E604-8B5D180AA487</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3381982-CABF-D0FF-926C-7865B1D2FE07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C8E3B78-9EBD-2663-72E4-19061ADA2230" name="JLS_TKPAY_JLS_TKTINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>AAC174A7-5D43-B5B5-868C-A9E2CDE4FF6B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C91793AF-BDDA-64F7-5824-D9E956FBE32F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9C0C580-7CC8-7A58-0E01-7CBFD3465202" name="JLS_VIS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>9C64545D-EF98-A97E-760F-A1277D1CD0E1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="V_ID" id="2A0608D1-9499-5D85-BD10-25ED48E098E4">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>065269D4-8678-6775-6781-D44533049861</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F70E7F4-6C81-93E1-9BAE-21E219B4D2FE" referredColumn="3C7413C9-0993-B7FD-32B3-9E9887CAF7B1"/>
+</associations>
+</Column>
+<Column name="SH_ID" id="EC0C0AF3-C1FA-303B-5681-ED1BA05B58DC">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>C8C1E9CC-F6BD-E2BC-7813-2906CB9E499D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="262B7EF1-9927-3AFB-BF51-ED3CD67933FF" referredColumn="C7408302-0DE0-C581-D5DE-42D3D07AD133"/>
+</associations>
+</Column>
+<Column name="SHINVOI_ID" id="AE79083B-E3FF-B068-5692-44391A24BE03">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>ACC180F7-03F4-52A4-CDA5-F0D77B660C85</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64770113-7ECA-C36D-8AC3-329438390140" referredColumn="06CB0557-0756-AD57-44EC-0066BC5FA69B"/>
+</associations>
+</Column>
+<Column name="PRICE" id="2BA624DE-67AC-0635-E6F9-F996345AA4EE">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 22:01:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[price for the visitor going to the show]]></commentInRDBMS>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B4BE58C-E38B-C30B-27A7-AE4956757DA6" name="JLS_VIS_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:53:37 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A0608D1-9499-5D85-BD10-25ED48E098E4"/>
+<colUsage columnID="EC0C0AF3-C1FA-303B-5681-ED1BA05B58DC"/>
+<colUsage columnID="AE79083B-E3FF-B068-5692-44391A24BE03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4A879EB-B6C6-09A4-5E9F-B48C993F7C5D" name="JLS_VIS_JLS_VISITORS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>14E0FC16-6F16-4F0B-9771-D595D4843A60</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A0608D1-9499-5D85-BD10-25ED48E098E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F81608-628C-C85C-5B37-967524883FEA" name="JLS_VIS_JLS_SHOWS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>77F17A1D-278D-817C-6D4A-A4D9C95F1E76</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC0C0AF3-C1FA-303B-5681-ED1BA05B58DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B84B4A2-BFC0-B6BA-E4D2-E568168D59A2" name="JLS_VIS_JLS_SHINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>D6E87F22-FDCC-4F12-D9F5-513DF74581D4</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE79083B-E3FF-B068-5692-44391A24BE03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

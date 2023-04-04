@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0CA74CC-3F2B-8ADD-E6E1-5C603AD9DED4" name="JLS_GPV">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>0DF77DBB-5A10-B2B4-25A0-122FF6FCFDA6</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="G_ID" id="BB6089BD-A590-9220-889D-ED1C75DC31F2">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>EA8A37E9-654C-F36F-D460-4CB9FFB40D3D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7DE51CB-D3CD-F596-3915-63045BF8D119" referredColumn="5D79C97A-3010-4076-F06A-7F50064794C2"/>
+</associations>
+</Column>
+<Column name="V_ID" id="9C459230-3D8B-A58B-9AAE-60FCA071F29D">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>B07EFF84-832E-EBA3-5A53-B8E337F3BB2B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C96FF7C-AF68-9FDE-111E-5D9CFA9797DB" referredColumn="3C7413C9-0993-B7FD-32B3-9E9887CAF7B1"/>
+</associations>
+</Column>
+<Column name="MEM_INDEX" id="849B2D36-5EBD-012B-2A8A-B9565876D3B1">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indetifying index for members in the group]]></commentInRDBMS>
+<generatorID>005BD903-87F5-B2F7-8780-EE734CFACCE1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCF5EC8C-DB60-F5E6-5172-1370FB3D83B8" name="JLS_GPV_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:51:00 UTC</createdTime>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB6089BD-A590-9220-889D-ED1C75DC31F2"/>
+<colUsage columnID="9C459230-3D8B-A58B-9AAE-60FCA071F29D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA39B5B5-2EF9-3A9C-AD9D-5F93E7782AA3" name="JLS_GPV_JLS_GROUPS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>4F72F711-D88B-E276-FE6C-6ED1247BE9EC</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB6089BD-A590-9220-889D-ED1C75DC31F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1819F5DE-74BB-8AB4-2571-D29314D53A6A" name="JLS_GPV_JLS_VISITORS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>83BD0DC6-2F44-0AB5-7FA4-4094B20F9FE5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C459230-3D8B-A58B-9AAE-60FCA071F29D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E9ACDDE-D33D-272A-37E3-21804C6F1EF8" containerWithKeyObject="5D8FE9D0-F8DB-0921-F109-2D9E749EBE5F" localFKIndex="79DDEBB4-1E6B-7F83-9C75-E87FD71CF0E7" name="JLS_SHCARD_JLS_SHPAY_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>411276AA-9532-C740-96E0-254919D10D1B</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_SHPAY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22F40939-4400-2E6F-2B69-671F3C99F349</referredTableID>
+<keyObject>61F65BC4-35E0-88D6-FD47-91638513B608</keyObject>
+<referredKeyID>61F65BC4-35E0-88D6-FD47-91638513B608</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SHPAY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

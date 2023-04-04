@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EAE64B1-E45D-839A-C4EA-CA4A6919B0C8" name="JLS_PARKINGS">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>587B379E-126E-C9F3-BAE3-CE66B8998FCE</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PK_ID" id="20E2948F-DE22-D318-76FC-8676CFD6FBE9">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique parking ID]]></commentInRDBMS>
+<generatorID>49667726-CCD9-666E-4D24-B68E4C716C54</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PK_LOT" id="5C9480D3-7C96-08BD-88FE-35929AAA898B">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Lot identifier]]></commentInRDBMS>
+<generatorID>FCFFB4F3-2543-2696-A3A1-FB1034E969C5</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PK_SPOTNUM" id="CC70BF37-A675-86AD-5108-7DDA85B8C646">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking spot number]]></commentInRDBMS>
+<generatorID>69FE9B23-A2F4-BAE9-A261-2509371113AD</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PK_TIMEIN" id="51FCB93C-DA42-CA78-B5C2-00FD3CD8EC4B">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Time into the lot of the current viehicle]]></commentInRDBMS>
+<generatorID>1EE23A15-2CA8-41FB-CD27-B17EF1713178</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PK_TIMEOUT" id="F07F5722-096C-6625-81CA-B97CCCC203C5">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Time get out of the current vehicle]]></commentInRDBMS>
+<generatorID>FC05C0AF-938C-82AD-D037-2765C52F244E</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PK_FEE" id="AC7FC739-0A72-5A27-91B7-A5750490D094">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parking fee during the parked time]]></commentInRDBMS>
+<generatorID>DCFC7440-B6BC-2A7E-ED16-4A990E2087A2</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="V_ID" id="B8BCB8E2-877D-1DEE-EE35-D40682582F4A">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>D84115A2-28CC-EA8C-2062-0B4ED934291C</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F862EF5A-0C09-4A93-2BEC-944B2A765E88" referredColumn="3C7413C9-0993-B7FD-32B3-9E9887CAF7B1"/>
+</associations>
+</Column>
+<Column name="PKINVOI_ID" id="912FBCEB-3800-7960-BD46-FDD1E2F3836F">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>E6EDE984-E097-B7C8-3D27-FD7E7E5C602D</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C941022-751C-637C-65C1-E6D59ECB0594" referredColumn="7184B8C8-1F10-A0F9-4D9E-AF8CFB07DE7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3311E092-1156-CDBA-3EB0-22CA89F0AF69" name="JLS_PARKINGS_PK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>F52AC1B7-4B14-814B-F576-08053308DFA1</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E2948F-DE22-D318-76FC-8676CFD6FBE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="918228D1-AA19-C28C-0476-758D8A5445BB" name="JLS_PARKINGS_JLS_VISITORS_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>04DC570F-4ACA-6834-46E1-710165A18784</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8BCB8E2-877D-1DEE-EE35-D40682582F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B3B96C1-79F6-8767-79D6-D43592F1FB9C" name="JLS_PARKINGS_JLS_PKINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>E5459D97-B50F-BDEE-BCF2-6ABABB9A4DF6</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="912FBCEB-3800-7960-BD46-FDD1E2F3836F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

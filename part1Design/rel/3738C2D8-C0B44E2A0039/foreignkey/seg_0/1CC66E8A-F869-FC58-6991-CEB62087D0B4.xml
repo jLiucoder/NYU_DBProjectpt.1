@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1CC66E8A-F869-FC58-6991-CEB62087D0B4" containerWithKeyObject="8B6AF2DE-4941-30B2-C0CD-939D91926604" localFKIndex="3D91C098-3C89-89A9-8325-EEE7291C5BBC" name="JLS_STPAY_JLS_STINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>1EF21A3D-C82D-D691-B83D-5676598C44A8</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_STINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C48117BA-D5A2-CD3B-DDE6-59AA1189E80F</referredTableID>
+<keyObject>1220D787-74BE-4234-0579-F6A8DA7FFFF0</keyObject>
+<referredKeyID>1220D787-74BE-4234-0579-F6A8DA7FFFF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STINVOI_ID,IT_ID,ST_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

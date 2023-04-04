@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF753162-7DC1-9F88-1F70-022E47F3994C" containerWithKeyObject="BA71DD83-278C-AE09-D076-A7C436E1B1A2" localFKIndex="876C9F7F-FD3C-6E80-3767-024B03A179A9" name="JLS_TICKETS_JLS_TKTINVOI_FK">
+<createdBy>jiayuliu</createdBy>
+<createdTime>2023-04-04 20:45:21 UTC</createdTime>
+<generatorID>999CCCF0-152E-2556-0421-49D4354BCED3</generatorID>
+<ownerDesignName>part1Design</ownerDesignName>
+<referredTableLongName>JLS_TKTINVOI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06C1FD0F-A587-96D1-BC6A-42BB1F49DD1C</referredTableID>
+<keyObject>39731531-4ADE-1563-6E22-8D7827C5F01F</keyObject>
+<referredKeyID>39731531-4ADE-1563-6E22-8D7827C5F01F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TKINVOI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
